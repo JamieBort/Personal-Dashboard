@@ -12,3 +12,5 @@ The following are copied from the GitCalendar/github-calendar/example directory:
 1. CalendarWebsite/css/
 2. CalendarWebsite/js/
 3. CalendarWebsite/index.html
+
+Once this is functional, remove the bookmarked pages [here](chrome://bookmarks/?id=1367).
