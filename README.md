@@ -16,4 +16,4 @@ The following are copied from the GitCalendar/github-calendar/example directory:
 2. CalendarWebsite/js/
 3. CalendarWebsite/index.html
 
-Once this is functional, remove the bookmarked pages [here](chrome://bookmarks/?id=1367).
+Once this is functional, remove the bookmarked pages [here](chrome://bookmarks/?id=1558).
