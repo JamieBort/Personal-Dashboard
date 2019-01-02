@@ -9,7 +9,7 @@ One website for things that have to do with my professional productivity and hea
 ![HackerRankCalendar](https://github.com/JamieBort/CalendarWebsite/blob/master/images/HackerRankCalendarGraph)
 [The HackerRank API docs](https://www.hackerrank.com/work/apidocs#!/Introduction/options_intro_api).
 
-To The sources of information are going to be:
+**The sources of information are going to be:**
 1. The Dexcom API. Failing that, or until I get it working, it will be a spreadsheet that I'll generate periodically from their app. Also, the name of the branch to develop this is 'Dexcom'.
 2. The GitHub API for the GitHub calendar. The name of the branch to develop this is 'GitCalendar'.
 3. The Google Calendar API for the Google calendar. The name of the branch to develop this is 'GoogleCalendar'.
@@ -17,7 +17,7 @@ To The sources of information are going to be:
 
 The first version, or starting point of this website is based on this repository [github-calendar](https://github.com/IonicaBizau/github-calendar).
 
-The following are copied from the GitCalendar/github-calendar/example directory:
+**The following are copied from the GitCalendar/github-calendar/example directory:**
 1. CalendarWebsite/css/
 2. CalendarWebsite/js/
 3. CalendarWebsite/index.html
