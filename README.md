@@ -22,3 +22,6 @@ The first version, or starting point of this website is based on this repository
 3. CalendarWebsite/index.html
 
 Once this is functional, remove the bookmarked pages [here](chrome://bookmarks/?id=1558).
+
+## My View of this Project.
+I envision this site to be something I can navigate to from at least my computer. Eventually I will be able to navigate to it from other devices such as my phone. And maybe that will be it. Ideally I'll load the page without entering any credentials. But this may not be possible. At which point I will be able to view on the one page all the information I care to see.
