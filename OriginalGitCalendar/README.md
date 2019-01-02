@@ -1,0 +1,1 @@
+This directory is for the original files that I used to create the GitHubCalendar feature of my website.
