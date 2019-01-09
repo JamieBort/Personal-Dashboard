@@ -27,3 +27,9 @@ Once this is functional, remove the bookmarked pages [here](chrome://bookmarks/?
 
 ## My View of this Project.
 I envision this site to be something I can navigate to from at least my computer. Eventually I will be able to navigate to it from other devices such as my phone. And maybe that will be it. Ideally I'll load the page without entering any credentials. But this may not be possible. At which point I will be able to view on the one page all the information I care to see.
+
+Description:include in website:
+1. my weight in my website 170 lbs
+2. Last eye check-up
+3. Last physical
+4. a1c
