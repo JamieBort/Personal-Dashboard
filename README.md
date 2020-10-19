@@ -1,7 +1,9 @@
 Add this spreadsheet to the website:
 https://docs.google.com/spreadsheets/d/1rYJXWQznoKKv9z23sToCGdT9V3kYV9thMcIFQjT1QAw/edit#gid=0
 
-# Calendar Website
+# ~~Calendar Website~~ Personal Dashboard
+
+NOTE: 20201019 renamed the repo https://github.com/JamieBort/CalendarWebsite to https://github.com/JamieBort/PersonalDashboard.
 
 One website for things that have to do with my professional productivity and health. Including, but not limited to:
 1. GitHub calendar graph.
