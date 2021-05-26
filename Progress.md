@@ -2,7 +2,8 @@
 
 ## Status
 ### Currently
-* 
+* Cleaning up the root directory in the master branch
+    [Clean up the root directory in the master branch](https://trello.com/c/eoj2x4Zs/1117-clean-up-the-root-directory-in-the-master-branch)
 
 ### Completed
 * Removing old branches.
@@ -59,6 +60,7 @@
 
 ## Tasks
 ### Not Done
+* [Clean up the root directory in the master branch](https://trello.com/c/eoj2x4Zs/1117-clean-up-the-root-directory-in-the-master-branch)
 * https://trello.com/c/YvoKlspE/681-clean-up-this-personal-dashboard-trello-card
 * https://trello.com/c/zy0t4RZY/682-create-a-trello-card-for-each-task-in-this-personal-dashboard-trello-card
 * https://trello.com/c/VQ4YGDoX/1115-old-trello-card-stuff-for-the-personal-dashboard
