@@ -42,21 +42,34 @@ Description:include in website:
 ## Explanation of other files and directories in this repository.
 
 ## Next Steps
-Clean up repo so that there is 
-master  -- react branch with Java back end and database.
-    |
-    |
-react native branch with Java back end and database.
+1.
+    Clean up repo so that there is 
+    master  -- react branch with Java back end and database.
+        |
+        |
+    react native branch with Java back end and database.
 
-```
-+-- master/main
-    +-- React.js branch with Java back end and database.
-    +-- React Native branch with Java back end and database.
-```
+    ```
+    +-- master/main
+        +-- React.js branch with Java back end and database.
+        +-- React Native branch with Java back end and database.
+    ```
 
-The front end on each branch will will look identical or similar.
-The functionality that it needs is to navigate between pages.
-And display info appropriate to that page.
+    The front end on each branch will will look identical or similar.
+    The functionality that it needs is to navigate between pages.
+    And display info appropriate to that page.
+
+    Something basic just to make sure
+    * it's working as I want and need.
+    * and to decide which to use
+        * React.js
+        * or React Native.
+
+2.
+    Then work on getting it behind a password/some sort of security.
+
+3.
+    Then bring in the database and back end.
 
 ## Status
 Currently 
