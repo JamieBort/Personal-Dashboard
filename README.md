@@ -42,49 +42,18 @@ In order as they appear in the repo.
 
 **Note to self** - refer to https://github.com/JamieBort/LearningDirectory/blob/master/README.md#explanation-of-other-files-and-directories-in-this-repository for consistent wording.
 
-#### OriginalGitCalendar   directory
-`This directory is for the original files that I used to create the GitHubCalendar feature of my website.`
-
-#### css                   directory
-The styles.
-
-#### dist                  directory
+#### old/ directory
 To be filled in.
 
-#### images                directory
-To be filled in.
-
-#### js                    directory
-To be filled in.
-
-#### lib                   directory
+#### README_Files_From_Old_Branches/ directory
 To be filled in.
 
 #### .gitignore file
 To be filled in.
 
 #### Progress.md file
-* For my personal organziation.
+* For my personal organization.
 * Contains `Next Steps`,`Status`, `Tasks`, and `Associated Links` sections.
-
-#### README.md             file
-To be filled in.
-
-#### _config.yml           file
-To be filled in.
-
-#### copy_README.md file
-Created this morning in advance of modifying this README.md file.
-
-#### index.html file
-To be filled in.
-
-#### package-lock.json file
-To be filled in.
-
-#### package.json file
-To be filled in.
-    https://github.com/JamieBort/LearningDirectory#packagejson
 
 ## Explanation of other files and directories in this repository.
 
