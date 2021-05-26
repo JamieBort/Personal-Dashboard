@@ -2,9 +2,10 @@
 
 ## Status
 ### Currently
-* Removing old branches.
+* 
 
 ### Completed
+* Removing old branches.
 * revamping the readme.md file.
 * revamping the master Trello card
 
@@ -13,7 +14,7 @@
     Clean up repo so that
 
     a.
-        https://trello.com/c/5LzmS26g/1116-clean-up-github-repo-branches-for-personal-dashboard-repo
+        ~~[Remove old branches](https://trello.com/c/5LzmS26g/1116-clean-up-github-repo-branches-for-personal-dashboard-repo)~~. Done
 
     b.
         the **branches** are structured such that:
@@ -68,9 +69,9 @@
 * Salvage any work from the other branches - see [1.a.](https://github.com/JamieBort/PersonalDashboard/blob/master/Progress.md#next-steps) of `Next Steps`.
 * Work off of only the dev branch until the code is ready to go live on the master branch. Move to a best practices/methodology document, file, etc.
 * https://trello.com/c/ooLxz9QZ/494-combine-these-two-files
-* https://trello.com/c/5LzmS26g/1116-clean-up-github-repo-branches-for-personal-dashboard-repo
 
 ### Completed Tasks
+* https://trello.com/c/5LzmS26g/1116-clean-up-github-repo-branches-for-personal-dashboard-repo
 * ~~Maybe move `Next Steps`,`Status`, and `Tasks` to another~~
 * ~~Leaning towards using React-Native over Angular, vanilla JavaScript, or anything else.~~
 * ~~Update the name of this repo from [`Calendar Website`](https://github.com/JamieBort/CalendarWebsite) to `Personal Dashboard`.~~ Completed 20201019.
