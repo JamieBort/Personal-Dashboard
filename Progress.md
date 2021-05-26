@@ -2,10 +2,11 @@
 
 ## Status
 ### Currently
-* Cleaning up the root directory in the master branch
-    [Clean up the root directory in the master branch](https://trello.com/c/eoj2x4Zs/1117-clean-up-the-root-directory-in-the-master-branch)
+* 
 
 ### Completed
+* Cleaning up the root directory in the master branch
+    [Clean up the root directory in the master branch](https://trello.com/c/eoj2x4Zs/1117-clean-up-the-root-directory-in-the-master-branch)
 * Removing old branches.
 * revamping the readme.md file.
 * revamping the master Trello card
