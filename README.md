@@ -1,13 +1,6 @@
 # Personal Dashboard
 
-## Explanation of files and directories
-
-## Next Steps
-
-## Status
-
-## Associated Links
-
+## What is this?/Who is it for?
 NOTE: 20201019 renamed the repo https://github.com/JamieBort/CalendarWebsite to https://github.com/JamieBort/PersonalDashboard.
 
 One website for things that have to do with my professional productivity and health. Including, but not limited to:
@@ -43,3 +36,31 @@ Description:include in website:
 2. Last eye check-up
 3. Last physical
 4. a1c
+
+## Explanation of files and directories
+
+## Explanation of other files and directories in this repository.
+
+## Next Steps
+Clean up repo so that there is 
+master  -- react branch with Java back end and database.
+    |
+    |
+react native branch with Java back end and database.
+
+```
++-- master/main
+    +-- React.js branch with Java back end and database.
+    +-- React Native branch with Java back end and database.
+```
+
+The front end on each branch will will look identical or similar.
+The functionality that it needs is to navigate between pages.
+And display info appropriate to that page.
+
+## Status
+Currently 
+* revamping the readme.md file.
+* revamping the master Trello card
+
+## Associated Links
