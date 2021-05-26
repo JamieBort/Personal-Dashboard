@@ -72,8 +72,8 @@ To be filled in.
 #### anotherdummyindex.html file
 To be filled in.
 
-#### copy_README.md        file
-To be filled in.
+#### copy_README.md file
+Created this morning in advance of modifying this README.md file.
 
 #### dummbyindex.html file
 To be filled in.
@@ -101,26 +101,34 @@ To be edited later.
 
 ## Next Steps
 1.
-    Clean up repo so that there is 
+    Clean up repo so that
 
     a.
-        get rid of unused branches
+        the **unused branches** are deleted, closed, etc.
 
     b.
-       ```+-- master/main
+        the **branches** are structured such that:
+        
+        +-- master/main
             +-- React.js branch with Java back end and database.
             +-- React Native branch with Java back end and database.
-        ```
 
-        The front end on each branch will will look identical or similar.
-        The functionality that it needs is to navigate between pages.
-        And display info appropriate to that page.
+    c.
+        the **directories** are structured such that:
+        
+        +-- root directory
+            +-- front end directory
+            +-- back end directory
 
-        Something basic just to make sure
-        * it's working as I want and need.
-        * and to decide which to use
-            * React.js
-            * or React Native.
+    The front end on each branch will will look identical or similar.
+    The functionality that it needs is to navigate between pages.
+    And display info appropriate to that page.
+
+    Something basic just to make sure
+    * it's working as I want and need.
+    * and to decide which to use
+        * React.js
+        * or React Native.
 
 2.
     Then work on getting it behind a password/some sort of security.
