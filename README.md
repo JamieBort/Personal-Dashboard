@@ -107,8 +107,7 @@ To be edited later.
         get rid of unused branches
 
     b.
-       ```
-        +-- master/main
+       ```+-- master/main
             +-- React.js branch with Java back end and database.
             +-- React Native branch with Java back end and database.
         ```
