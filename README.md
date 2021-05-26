@@ -60,8 +60,12 @@ To be filled in.
 #### lib                   directory
 To be filled in.
 
-#### .gitignore            file
+#### .gitignore file
 To be filled in.
+
+#### Progress.md file
+* For my personal organziation.
+* Contains `Next Steps`,`Status`, `Tasks`, and `Associated Links` sections.
 
 #### README.md             file
 To be filled in.
