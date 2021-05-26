@@ -96,3 +96,13 @@ To be edited later.
 
 Contributing
 To be edited later.
+
+## Branch structure
+
+    +-- master/main (production branch - only work that is mean to go live is merged into here)
+        |
+        |
+        +-- dev (all dev work is off of this branch. not until it passes does it go into master)
+            |
+            |
+            +-- feature branch(es) (a branch for each feature to be developed.)

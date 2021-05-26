@@ -22,6 +22,16 @@
             +-- dev
                 +-- React.js branch with Java back end and database.
                 +-- React Native branch with Java back end and database.
+        
+    ~~or~~
+        
+        +-- ~~master/main~~
+            +-- ~~dev~~
+                +-- ~~front end~~
+                    +-- ~~React.js branch with Java back end and database.~~
+                    +-- ~~React Native branch with Java back end and database.~~
+                +-- ~~back end~~
+                    ~~+-- Java back end and database.~~
 
     c.
         the **directories** are structured such that:
