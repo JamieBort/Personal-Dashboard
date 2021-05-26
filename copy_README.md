@@ -1,10 +1,9 @@
-# Personal Dashboard
+Duplicate of https://github.com/JamieBort/PersonalDashboard/blob/master/README.md as of 20210525.
 
-## Explanation of files and directories
+Add this spreadsheet to the website:
+https://docs.google.com/spreadsheets/d/1rYJXWQznoKKv9z23sToCGdT9V3kYV9thMcIFQjT1QAw/edit#gid=0
 
-## Next Steps
-
-## Status
+# ~~Calendar Website~~ Personal Dashboard
 
 NOTE: 20201019 renamed the repo https://github.com/JamieBort/CalendarWebsite to https://github.com/JamieBort/PersonalDashboard.
 
