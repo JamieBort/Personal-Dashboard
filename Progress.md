@@ -69,3 +69,32 @@
 ## Associated Links
 * [Personal Dashboard](https://trello.com/c/XdNG65rY/154-personal-dashboard) Trello card.
 * [Personal Dashboard Business Requirements](https://docs.google.com/document/d/1KQw0Kq4O_SCzxrQZaZg0MucxXqoEE0kOTe9mDmxpD2M/edit#) Google Drive doc.
+
+## Resources
+* https://trello.com/c/NFRSx1Q6/171-api-professional-development
+
+## Content
+* https://trello.com/c/BBsYOyDg/1114-content-for-the-personal-dashboard
+
+## APIs to use
+* https://trello.com/c/VpBLMhGh/1113-apis-to-use-for-the-personal-dashboard
+
+## Research
+Items to research.
+1. Which framework to use for the front end, if any.
+2. Which files to keep out of github. https://trello.com/c/GYruL063/167-sensitive-files-to-keep-off-of-github
+3. https://trello.com/c/muKx92hA/572-read-up-on-rest-vs-soap-vs-graph-api-requests
+4. Postman: https://trello.com/c/mmkFuAOA/346-get-familiar-with-postman?menu=filter&filter=label:Home
+5. google chrome bookmarks: chrome://bookmarks/?q=API
+6. articles in pocket https://app.getpocket.com/tags/professional-development/all
+7. https://trello.com/c/APC6cRAy/792-questions
+
+Other. From: https://trello.com/c/d6R7jZVj/421-successful-internet-of-things-dashboard
+>[How I built an accessible IoT dashboard](https://medium.com/@jason.webb/building-an-accessible-iot-dashboard-67a1633398a3)
+
+>Key phrases:
+Personal Dashboard (my project)
+Accessibility
+
+>The above from Mili L. 20200915 `#resources` channel: https://devsrtp.slack.com/archives/CAD7NBM46/p1600178718020200
+
