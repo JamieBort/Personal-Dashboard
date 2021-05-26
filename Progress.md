@@ -23,25 +23,15 @@
         
         +-- master/main
             +-- dev
-                +-- React.js branch with Java back end and database.
-                +-- React Native branch with Java back end and database.
-        
-    ~~or~~
-        
-        +-- ~~master/main~~
-            +-- ~~dev~~
-                +-- ~~front end~~
-                    +-- ~~React.js branch with Java back end and database.~~
-                    +-- ~~React Native branch with Java back end and database.~~
-                +-- ~~back end~~
-                    ~~+-- Java back end and database.~~
+                +-- React.js branch with Java back end and database. (react_js)
+                +-- React Native branch with Java back end and database. (react_native)
 
     c.
         the **directories** are structured such that:
         
-        +-- root directory
-            +-- front end directory
-            +-- back end directory
+        +-- root directory (PersonalDashboard/)
+            +-- front end directory (frontend/)
+            +-- back end directory (backend/)
 
     The front end on each branch will will look identical or similar.
     The functionality that it needs is to navigate between pages.
@@ -61,7 +51,6 @@
 
 ## Tasks
 ### Not Done
-* [Clean up the root directory in the master branch](https://trello.com/c/eoj2x4Zs/1117-clean-up-the-root-directory-in-the-master-branch)
 * https://trello.com/c/YvoKlspE/681-clean-up-this-personal-dashboard-trello-card
 * https://trello.com/c/zy0t4RZY/682-create-a-trello-card-for-each-task-in-this-personal-dashboard-trello-card
 * https://trello.com/c/VQ4YGDoX/1115-old-trello-card-stuff-for-the-personal-dashboard
@@ -69,11 +58,12 @@
 * https://trello.com/c/C7gQnymV/690-study-todoist-to-see-what-from-it-i-can-use-in-my-personal-dashboard
 * Figure out the [Personal Dashboard Business Requirements](https://docs.google.com/document/d/1KQw0Kq4O_SCzxrQZaZg0MucxXqoEE0kOTe9mDmxpD2M/edit#heading=h.k7bx0as6v0ko) for this app.
 * Create a dev branch - see [1.b.](https://github.com/JamieBort/PersonalDashboard/blob/master/Progress.md#next-steps) of `Next Steps`.
-* Salvage any work from the other branches - see [1.a.](https://github.com/JamieBort/PersonalDashboard/blob/master/Progress.md#next-steps) of `Next Steps`.
 * Work off of only the dev branch until the code is ready to go live on the master branch. Move to a best practices/methodology document, file, etc.
 * https://trello.com/c/ooLxz9QZ/494-combine-these-two-files
 
 ### Completed Tasks
+* Salvage any work from the other branches - see [1.a.](https://github.com/JamieBort/PersonalDashboard/blob/master/Progress.md#next-steps) of `Next Steps`.
+* [Clean up the root directory in the master branch](https://trello.com/c/eoj2x4Zs/1117-clean-up-the-root-directory-in-the-master-branch)
 * https://trello.com/c/5LzmS26g/1116-clean-up-github-repo-branches-for-personal-dashboard-repo
 * ~~Maybe move `Next Steps`,`Status`, and `Tasks` to another~~
 * ~~Leaning towards using React-Native over Angular, vanilla JavaScript, or anything else.~~
