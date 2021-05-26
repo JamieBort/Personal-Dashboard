@@ -38,8 +38,65 @@ Description:include in website:
 4. a1c
 
 ## Explanation of files and directories
+In order as they appear in the repo.
+Note to self - refer to https://github.com/JamieBort/LearningDirectory/blob/master/README.md#explanation-of-other-files-and-directories-in-this-repository for consistent wording.
+
+#### OriginalGitCalendar   directory
+`This directory is for the original files that I used to create the GitHubCalendar feature of my website.`
+
+#### css                   directory
+The styles.
+
+#### dist                  directory
+To be filled in.
+
+#### images                directory
+To be filled in.
+
+#### js                    directory
+To be filled in.
+
+#### lib                   directory
+To be filled in.
+
+#### .gitignore            file
+To be filled in.
+
+#### README.md             file
+To be filled in.
+
+#### _config.yml           file
+To be filled in.
+
+#### anotherdummyindex.html file
+To be filled in.
+
+#### copy_README.md        file
+To be filled in.
+
+#### dummbyindex.html file
+To be filled in.
+
+#### index.html file
+To be filled in.
+
+#### package-lock.json file
+To be filled in.
+
+#### package.json file
+To be filled in.
+    https://github.com/JamieBort/LearningDirectory#packagejson
 
 ## Explanation of other files and directories in this repository.
+
+Licensing Info
+To be edited later.
+
+Code of Conduct
+To be edited later.
+
+Contributing
+To be edited later.
 
 ## Next Steps
 1.
@@ -77,3 +134,4 @@ Currently
 * revamping the master Trello card
 
 ## Associated Links
+* [Personal Dashboard](https://trello.com/c/XdNG65rY/154-personal-dashboard) Trello card.
