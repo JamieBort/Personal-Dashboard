@@ -5,7 +5,7 @@
     Clean up repo so that
 
     a.
-        the **unused branches** are deleted, closed, etc.
+        https://trello.com/c/5LzmS26g/1116-clean-up-github-repo-branches-for-personal-dashboard-repo
 
     b.
         the **branches** are structured such that:
@@ -58,12 +58,7 @@
 * Salvage any work from the other branches - see [1.a.](https://github.com/JamieBort/PersonalDashboard/blob/master/Progress.md#next-steps) of `Next Steps`.
 * Work off of only the dev branch until the code is ready to go live on the master branch. Move to a best practices/methodology document, file, etc.
 * https://trello.com/c/ooLxz9QZ/494-combine-these-two-files
-* Remove/delete old branches. 
-    * See 
-        * existing trello card for this that was used for another repo.
-            * https://trello.com/c/XZXUcEjo/757-read-up-on-deleting-old-github-branches
-        * [1.a.](https://github.com/JamieBort/PersonalDashboard/blob/master/Progress.md#next-steps) of `Next Steps` above.
-        * `Currently` status above.
+* https://trello.com/c/5LzmS26g/1116-clean-up-github-repo-branches-for-personal-dashboard-repo
 
 ### Completed Tasks
 * ~~Maybe move `Next Steps`,`Status`, and `Tasks` to another~~
