@@ -1,5 +1,13 @@
 # Progress
 
+## Status
+### Currently
+* Removing old branches.
+
+### Completed
+* revamping the readme.md file.
+* revamping the master Trello card
+
 ## Next Steps
 1.
     Clean up repo so that
@@ -37,14 +45,6 @@
 
 3.
     Then bring in the database and back end.
-
-## Status
-### Currently
-* Removing old branches.
-
-### Completed
-* revamping the readme.md file.
-* revamping the master Trello card
 
 ## Tasks
 ### Not Done
