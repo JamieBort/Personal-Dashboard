@@ -4,7 +4,19 @@
 
 **do not work on back end at all when front end repos are checked out**
 
-####Resources for getting this working
+## Status
+
+Left off here:
+https://www.youtube.com/watch?v=gDHSLKmG8ZQ&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=12
+
+## Next Steps
+Switch to react_js branch.
+
+Then figure out how to make an api call to `http://localhost:8085/topics`.
+
+Then get back end up and running, front end up and running, and make a call to the back end to display on the website.
+
+#### Resources for getting this working
 
 See: 
 
