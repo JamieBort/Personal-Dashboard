@@ -2,10 +2,17 @@
 
 ## Status
 ### Currently
-* **NOTE:** this didn't work for me either.
+Currently in the `java_setup` branch.
+Navigate to `file:///Users/jamiebort/Documents/DevFiles/personal_projects/PersonalDashboard/frontend/attempt04/index.html` in the browser.
+Open up `./personal_projects/PersonalDashboard/` in vs code.
+Run `./personal_projects/PersonalDashboard/backend/src/main/java/personal_dashboard/backend/BackendApplication.java` in vs code.
+Then the index.html can make a call to `http://localhost:8085/topics`.
+
+
+~~**NOTE:** this didn't work for me either.
 I am going to table this `attempt03` directory and this `react_js` branch for now.
 And I will next attempt to make an call to the back end directly - assume the issues I am running into will not occur if I make a call to the back end directly...
-If that fails, I will work on a course that will walk me through the process of making a fetch using JavaScript and possibly a library and/or framework.
+If that fails, I will work on a course that will walk me through the process of making a fetch using JavaScript and possibly a library and/or framework.~~
 
 ### Completed
 * Cleaning up the root directory in the master branch
