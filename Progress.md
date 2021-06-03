@@ -51,6 +51,10 @@ and select the `Fetch` button to log to the console a call to `http://localhost:
 
 2.
     ~~Then set up the back end~~. Done
+    
+    Deleted both
+    * the `java_setup` (local) branch and
+    * the `remotes/origin/java_setup` remote branch.
 
 3.
     Then set up the frontend. Something basic just to make sure
