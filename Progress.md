@@ -100,6 +100,11 @@ and select the `Fetch` button to log to the console a call to `http://localhost:
 * [Personal Dashboard](https://trello.com/c/XdNG65rY/154-personal-dashboard) Trello card.
 * [Personal Dashboard Business Requirements](https://docs.google.com/document/d/1KQw0Kq4O_SCzxrQZaZg0MucxXqoEE0kOTe9mDmxpD2M/edit#) Google Drive doc.
 
+## Business Requirements
+
+See the `Personal Dashboard Business Requirements` Google Drive doc:
+https://docs.google.com/document/d/1KQw0Kq4O_SCzxrQZaZg0MucxXqoEE0kOTe9mDmxpD2M/edit#heading=h.k7bx0as6v0ko
+
 ## Resources
 * https://trello.com/c/NFRSx1Q6/171-api-professional-development
 
