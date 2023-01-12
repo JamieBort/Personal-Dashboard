@@ -76,16 +76,16 @@ See this `Branches` Google Drive directory: https://drive.google.com/drive/folde
         +-- dev (all dev work is off of this branch. not until it passes does it go into master)
             |
             |
-            +-- back_end - all things backend related. (Not yet used/created.)
+            +-- back_end - For all things backend related. (Not yet used/created.)
             |   |
             |   |
             |   +-- a_back_end_branch (Not yet used/created.)
             |
             |
-            +-- front_end - all things frontend related. (Not yet used/created.)
+            +-- front_end - For all things frontend related. (Created.)
                 |
                 |
-                +-- front_end_attempt01 - building the React Native, React.js, or React Native and React.js front end. (Not yet used/created.)
+                +-- front_end_attempt01 - building the React Native, React.js, or React Native and React.js front end. (Created.)
                 |
                 |
                 +-- api - for developing api calls.
