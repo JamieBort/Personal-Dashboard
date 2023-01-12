@@ -66,7 +66,7 @@ To be edited later.
 Contributing
 To be edited later.
 
-## Branch structure
+## Branch Structure
 
 See this `Branches` Google Drive directory: https://drive.google.com/drive/folders/1FDanxo19BdQ_MsztNeL4sq6jbHvGSpiy
 
@@ -76,4 +76,31 @@ See this `Branches` Google Drive directory: https://drive.google.com/drive/folde
         +-- dev (all dev work is off of this branch. not until it passes does it go into master)
             |
             |
-            +-- feature branch(es) (a branch for each feature to be developed.)
+            +-- back_end - all things backend related. (Not yet used/created.)
+            |   |
+            |   |
+            |   +-- a_back_end_branch (Not yet used/created.)
+            |
+            |
+            +-- front_end - all things frontend related. (Not yet used/created.)
+                |
+                |
+                +-- front_end_attempt01 - building the React Native, React.js, or React Native and React.js front end. (Not yet used/created.)
+                |
+                |
+                +-- api - for developing api calls.
+                |   |
+                |   |
+                |   +-- Trello - the Trello api. (Not yet used/created.)
+                |   |
+                |   |
+                |   +-- Google Calendar - the Google Calendar api. (Not yet used/created.)
+                |   |
+                |   |
+                |   +-- Google Keep - the Google Keep api. (Not yet used/created.)
+                |   |
+                |   |
+                |   +-- GetPocket - the GetPocket api. (Not yet used/created.)
+                |
+                |
+                +-- feature branch(es) (a branch for each feature to be developed.)
