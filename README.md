@@ -68,6 +68,8 @@ To be edited later.
 
 ## Branch structure
 
+See this `Branches` Google Drive directory: https://drive.google.com/drive/folders/1FDanxo19BdQ_MsztNeL4sq6jbHvGSpiy
+
     +-- master/main (production branch - only work that is mean to go live is merged into here)
         |
         |
