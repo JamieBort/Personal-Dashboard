@@ -76,10 +76,12 @@ See this `Branches` Google Drive directory: https://drive.google.com/drive/folde
         +-- dev (all dev work is off of this branch. not until it passes does it go into master)
             |
             |
-            +-- back_end - For all things backend related. (Not yet used/created.)
+            +-- back_end -  For all things backend related. 
+                            (Created.)
             |   |
             |   |
-            |   +-- a_back_end_branch (Not yet used/created.)
+            |   +-- java_or_node_back_end - Determine whether to use Java or Node.js
+                                            (Created.)
             |
             |
             +-- front_end - For all things frontend related. (Created.)
