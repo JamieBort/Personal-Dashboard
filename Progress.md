@@ -1,7 +1,12 @@
 # Progress
 
 ## Status
+
+* See the `Status` section of the `Progress.md` file in the `front_end_attempt01` branch:
+https://github.com/JamieBort/PersonalDashboard/blob/front_end_attempt01/Progress.md#status
+
 ### Currently
+
 Currently in the `java_setup` branch.
 
 Navigate to `file:///Users/jamiebort/Documents/DevFiles/personal_projects/PersonalDashboard/frontend/attempt04/index.html` in the browser.
@@ -22,6 +27,10 @@ and select the `Fetch` button to log to the console a call to `http://localhost:
 * revamping the master Trello card
 
 ## Next Steps
+
+0. See the `Next Steps` section of the `Progress.md` file in the `front_end_attempt01` branch:
+https://github.com/JamieBort/PersonalDashboard/blob/front_end_attempt01/Progress.md#next-steps
+
 1.
     ~~Clean up repo~~ so that
 
