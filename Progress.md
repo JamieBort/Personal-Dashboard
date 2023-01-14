@@ -2,11 +2,17 @@
 
 ## Status
 
-* See the `Status` section of the `Progress.md` file in the `front_end_attempt01` branch:
-https://github.com/JamieBort/PersonalDashboard/blob/front_end_attempt01/Progress.md#status
+* See the `Status` section of the `Progress.md` file in the `front_end` branch:
+~~https://github.com/JamieBort/PersonalDashboard/blob/front_end_attempt01/Progress.md#status~~ **need a new link here**
 
-* See the `Status` section of the `Progress.md` file in the `java_or_node_back_end` branch: 
-https://github.com/JamieBort/PersonalDashboard/blob/java_or_node_back_end/Progress.md#status
+* ~~See the `Status` section of the `Progress.md` file in the `front_end_attempt01` branch:~~ **delete me**
+~~https://github.com/JamieBort/PersonalDashboard/blob/front_end_attempt01/Progress.md#status~~
+
+* See the `Status` section of the `Progress.md` file in the `back_end` branch: 
+https://github.com/JamieBort/PersonalDashboard/blob/back_end/Progress.md#status
+
+* ~~See the `Status` section of the `Progress.md` file in the `java_or_node_back_end` branch: ~~ **delete me**
+~~https://github.com/JamieBort/PersonalDashboard/blob/java_or_node_back_end/Progress.md#status~~
 
 ### Currently
 
@@ -33,11 +39,17 @@ and select the `Fetch` button to log to the console a call to `http://localhost:
 
 0. See 
     
-    the `Next Steps` section of the `Progress.md` file in the `front_end_attempt01` branch:
-https://github.com/JamieBort/PersonalDashboard/blob/front_end_attempt01/Progress.md#next-steps
+    the `Next Steps` section of the `Progress.md` file in the `front_end` branch:
+~~https://github.com/JamieBort/PersonalDashboard/blob/front_end_attempt01/Progress.md#next-steps~~ **need a new link here**
 
-    and the `Next Steps` section of the `Progress.md` file in the `java_or_node_back_end` branch:
-    https://github.com/JamieBort/PersonalDashboard/blob/java_or_node_back_end/Progress.md#next-steps
+    and the `Next Steps` section of the `Progress.md` file in the `back_end` branch:
+    ~~https://github.com/JamieBort/PersonalDashboard/blob/java_or_node_back_end/Progress.md#next-steps~~ **need a new link here**
+    
+    ~~the `Next Steps` section of the `Progress.md` file in the `front_end_attempt01` branch:~~ **delete me**
+~~https://github.com/JamieBort/PersonalDashboard/blob/front_end_attempt01/Progress.md#next-steps~~
+
+    ~~and the `Next Steps` section of the `Progress.md` file in the `java_or_node_back_end` branch:~~ **delete me**
+~~    https://github.com/JamieBort/PersonalDashboard/blob/java_or_node_back_end/Progress.md#next-steps~~
 
 1.
     ~~Clean up repo~~ so that

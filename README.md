@@ -76,6 +76,28 @@ See this `Branches` Google Drive directory: https://drive.google.com/drive/folde
         +-- dev (all dev work is off of this branch. not until it passes does it go into master)
             |
             |
+            +-- hosting -   For hosting on my domains. 
+                            AND for hosting on my mobile (for development purposes)
+            |   |
+            |   |
+            |   +-- mobile_hosting - Branch for "hosting" on my mobile device.
+            |   |   |
+            |   |   |
+            |   |   +-- mobile_hosting_research - One for doing research for this task.
+            |   |   |
+            |   |   |
+            |   |   +-- mobile_hosting_implementing - One for implementing it - expo go app.
+            |   |
+            |   |
+            |   +-- domain_hosting - Branch for hosting on my domains.
+            |       |
+            |       |
+            |       +-- domain_hosting_research - One for doing research for this task.
+            |       |
+            |       |
+            |       +-- domain_hosting_implementing - One for implementing it.
+            |
+            |
             +-- back_end -  For all things backend related. 
                             (Created.)
             |   |
