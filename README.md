@@ -77,25 +77,32 @@ See this `Branches` Google Drive directory: https://drive.google.com/drive/folde
             |
             |
             +-- hosting -   For hosting on my domains. 
-                            AND for hosting on my mobile (for development purposes)
+                            AND for hosting on my mobile (for development purposes).
+                            (Not yet used/created.)
             |   |
             |   |
-            |   +-- mobile_hosting - Branch for "hosting" on my mobile device.
+            |   +-- mobile_hosting -    Branch for "hosting" on my mobile device.
+                                        (Not yet used/created.)
             |   |   |
             |   |   |
-            |   |   +-- mobile_hosting_research - One for doing research for this task.
+            |   |   +-- mobile_hosting_research -   One for doing research for this task.
+                                                    (Not yet used/created.)
             |   |   |
             |   |   |
-            |   |   +-- mobile_hosting_implementing - One for implementing it - expo go app.
+            |   |   +-- mobile_hosting_implementing -   One for implementing it - expo go app.
+                                                        (Not yet used/created.)
             |   |
             |   |
-            |   +-- domain_hosting - Branch for hosting on my domains.
+            |   +-- domain_hosting -    Branch for hosting on my domains.
+                                        (Not yet used/created.)
             |       |
             |       |
-            |       +-- domain_hosting_research - One for doing research for this task.
+            |       +-- domain_hosting_research -   One for doing research for this task.
+                                                    (Not yet used/created.)
             |       |
             |       |
-            |       +-- domain_hosting_implementing - One for implementing it.
+            |       +-- domain_hosting_implementing -   One for implementing it.
+                                                        (Not yet used/created.)
             |
             |
             +-- back_end -  For all things backend related. 
@@ -106,13 +113,16 @@ See this `Branches` Google Drive directory: https://drive.google.com/drive/folde
                                             (Created.)
             |
             |
-            +-- front_end - For all things frontend related. (Created.)
+            +-- front_end - For all things frontend related. 
+                            (Created.)
                 |
                 |
-                +-- front_end_attempt01 - building the React Native, React.js, or React Native and React.js front end. (Created.)
+                +-- front_end_attempt01 -   For building the React Native, React.js, or React Native and React.js front end. 
+                                            (Created.)
                 |
                 |
-                +-- api - for developing api calls.
+                +-- api -   For developing api calls.
+                            (Not yet used/created.)
                 |   |
                 |   |
                 |   +-- Trello - the Trello api. (Not yet used/created.)
