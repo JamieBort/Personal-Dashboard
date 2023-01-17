@@ -122,7 +122,7 @@ See this `Branches` Google Drive directory: https://drive.google.com/drive/folde
                 |
                 |
                 +-- api -   For developing api calls.
-                            (Not yet used/created.)
+                            (Created.)
                 |   |
                 |   |
                 |   +-- Trello - the Trello api. (Not yet used/created.)
