@@ -98,11 +98,11 @@ See this `Branches` Google Drive directory: https://drive.google.com/drive/folde
                                         (Not yet used/created.)
             |       |
             |       |
-            |       +-- domain_hosting_research -   One for doing research for this task.
+            |       +-- domain_hosting_research -   For doing research for this task.
                                                     (Not yet used/created.)
             |       |
             |       |
-            |       +-- domain_hosting_implementing -   One for implementing it.
+            |       +-- domain_hosting_implementing -   For implementing it.
                                                         (Not yet used/created.)
             |
             |
