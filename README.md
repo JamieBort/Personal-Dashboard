@@ -73,7 +73,8 @@ See this `Branches` Google Drive directory: https://drive.google.com/drive/folde
     +-- master/main (production branch - only work that is mean to go live is merged into here)
         |
         |
-        +-- dev (all dev work is off of this branch. not until it passes does it go into master)
+        +-- dev -   All development work is off of this branch.
+                    Not until it passes does it go into the master branch.
             |
             |
             +-- hosting -   For hosting on my domains. 
@@ -119,22 +120,33 @@ See this `Branches` Google Drive directory: https://drive.google.com/drive/folde
                 |
                 +-- front_end_attempt01 -   For building the React Native, React.js, or React Native and React.js front end. 
                                             (Created.)
+                                            Build desktop version.
+                |
+                |
+                +-- front_end_mobile -  Building the React Native, React.js, or React Native and React.js front end for mobile. 
+                                        (Not yet used/created.)
+                                        Build mobile version.
+                                        For this, see `3 Ways To Implement Responsive Design In Your React App` in the `Research.md` file.
                 |
                 |
                 +-- api -   For developing api calls.
                             (Created.)
                 |   |
                 |   |
-                |   +-- Trello - the Trello api. (Not yet used/created.)
+                |   +-- api_trello -    The Trello api.
+                                        (Created.)
                 |   |
                 |   |
-                |   +-- Google Calendar - the Google Calendar api. (Not yet used/created.)
+                |   +-- Google Calendar -   The Google Calendar api. 
+                                            (Not yet used/created.)
                 |   |
                 |   |
-                |   +-- Google Keep - the Google Keep api. (Not yet used/created.)
+                |   +-- Google Keep -   The Google Keep api. 
+                                        (Not yet used/created.)
                 |   |
                 |   |
-                |   +-- GetPocket - the GetPocket api. (Not yet used/created.)
+                |   +-- GetPocket - The GetPocket api. 
+                                    (Not yet used/created.)
                 |
                 |
                 +-- feature branch(es) (a branch for each feature to be developed.)
