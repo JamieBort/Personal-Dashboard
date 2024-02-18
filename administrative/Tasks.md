@@ -87,7 +87,7 @@ When the Administrative tasks above have been completed, it will be time to buil
 
 To that end, obtain a NextJS TypeScript starter app from Vercel. Deploy it.
 
-Then do the same with Java and Heroku.
+Then do the same with Java and Heroku. (or koyeb: https://github.com/JamieBort/LearningDirectory/tree/master/Hosting and https://www.koyeb.com/blog/sustaining-free-compute-in-a-hostile-environment)
 
 Lastly, build the back end and the front end.
 
