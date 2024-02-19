@@ -20,16 +20,6 @@ See
 
 - ~~and see `Start back end server remotely` in the `./jamiebort.github.io/backend/README.md` file.~~
 
-## Future Features
-
-~~Here is listed the things I plan on adding to the repo.~~
-
-[Remove this section?]
-
-### Features To Add
-
-[Remove this section?]
-
 ## Branch Structure
 
 See this `Branches` Google Drive directory: https://drive.google.com/drive/folders/1FDanxo19BdQ_MsztNeL4sq6jbHvGSpiy
@@ -120,40 +110,66 @@ See this `Branches` Google Drive directory: https://drive.google.com/drive/folde
 
 ### Directories
 
+- .vscode/
+
+  - Directory for config file for VS Code.
+
+  - For information, see the .vscode section of the configFiles directory of the LearningDirectory repo.
+
+  - Omitted from this repo.
+
+- administrative/
+
+  - Files and directories for organizational purposes.
+
+  - ./administrative/original_readme/
+
+    - Temporary directory.
+
+    - This https://github.com/JamieBort/Personal-Dashboard/blob/fullstack/README.md README file has been copied to ./administrative/original_readme/originalReadme/README.md because may have important links to be saved.
+
+    - This directory and its contents will be deleted when this branch is deleted. **To be removed.**
+
+- backend/
+
+  - Directory containing the back end of this app.
+
+- frontend/
+
+  Directory containing the front end of this app.
+
+- old
+
+  - **To be removed.**
+
+- old_frontend/
+
+  - **To be removed.**
+
+- README_Files_From_Old_Branches/
+
+  - **To be removed.**
+
 ### Files
 
----
+- administrative/README.md
 
-## Explanation of files and directories
+  - This readme file.
 
-In order as they appear in the repo.
+- administrative/Tasks.md
 
-**Note to self** - refer to https://github.com/JamieBort/LearningDirectory/blob/master/README.md#explanation-of-other-files-and-directories-in-this-repository for consistent wording.
+  - To-Do items that need to be addressed.
 
-#### old/ directory
+- .gitignore
 
-To be filled in.
+  - Specifies intentionally untracked files. See https://git-scm.com/docs/gitignore
 
-#### README_Files_From_Old_Branches/ directory
+- Progress.md
 
-To be filled in.
+  - Markdown file listing tasks that need to be accomplished and their status.
 
-#### .gitignore file
+  - **To be removed.**
 
-To be filled in.
+- README.md
 
-#### Progress.md file
-
-- For my personal organization.
-- Contains `Next Steps`,`Status`, `Tasks`, and `Associated Links` sections.
-
-## Explanation of other files and directories in this repository.
-
-Licensing Info
-To be edited later.
-
-Code of Conduct
-To be edited later.
-
-Contributing
-To be edited later.
+  - This readme file for the repo.
