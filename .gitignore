@@ -1,7 +1,25 @@
-*.swp
-*.swo
-*~
-*.log
-*node_modules
+# ./.gitignore
+# TODO: clean up this file. See this https://github.com/JamieBort/Personal-Dashboard/issues/16 issue.
+
+# dependencies
+node_modules
+
+# environment variables
 .env*
-*.DS_Store
+
+# miscelanous
+.DS_Store
+scratch*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
