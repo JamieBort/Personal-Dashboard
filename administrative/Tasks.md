@@ -19,39 +19,11 @@ The follow folder structure is needed:
 
 - Add a license for the repo.
 
-- Clean up these directories. Specifically,
+  https://github.com/JamieBort/Personal-Dashboard/issues/12
 
-  - They need to be whittled down to just
+- Clean up these files, directories, and branches.
 
-    - ./administrative/,
-
-    - ./backend/,
-
-    - and ./frontend/
-
-  - To that end
-
-    - go through each directory to see what needs to be salvaged,
-
-    - salvage it,
-
-    - then remove that directory.
-
-  - ./.vscode needs to be removed from the repo.
-
-- Clean up these files. Specifically,
-
-  - The ./.gitignore file needs to be cleaned up.
-
-  - ./Progress.md needs to be absorbed into the ./administrative/ directory.
-
-  - The ./README.md file needs to be cleaned up.
-
-    - Including add a `Last Updated Tag`.
-
-- Clean up the branches. Remove the ones that are not necessary.
-
-  - To that end go through each branch to see what needs to be salvaged.
+  https://github.com/JamieBort/Personal-Dashboard/issues/6
 
 ### Administrative Status
 
@@ -59,7 +31,11 @@ The follow folder structure is needed:
 
 - Add a license for the repo.
 
+  https://github.com/JamieBort/Personal-Dashboard/issues/12
+
 - Do these 6 things together and in sequence:
+
+  https://github.com/JamieBort/Personal-Dashboard/issues/14
 
   - Start with the furthest (newest (?)) branch. (figure out which branch is the most recent.)
 
@@ -85,11 +61,21 @@ The follow folder structure is needed:
 
 When the Administrative tasks above have been completed, it will be time to build out the frame of the app.
 
-To that end, obtain a NextJS TypeScript starter app from Vercel. Deploy it.
+To that end,
 
-Then do the same with Java and Heroku. (or koyeb: https://github.com/JamieBort/LearningDirectory/tree/master/Hosting and https://www.koyeb.com/blog/sustaining-free-compute-in-a-hostile-environment)
+1. Research dashboard ideas, frameworks, boilerplates, etc.
 
-Lastly, build the back end and the front end.
+   https://github.com/JamieBort/Personal-Dashboard/issues/13
+
+2. Obtain a NextJS TypeScript starter app from Vercel. Deploy it.
+
+   https://github.com/JamieBort/Personal-Dashboard/issues/8
+
+3. Then do the same with Java and Heroku. (or koyeb: https://github.com/JamieBort/LearningDirectory/tree/master/Hosting and https://www.koyeb.com/blog/sustaining-free-compute-in-a-hostile-environment)
+
+   https://github.com/JamieBort/Personal-Dashboard/issues/7
+
+4. Lastly, build the back end and the front end.
 
 ### Full Stack Status
 
