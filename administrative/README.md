@@ -170,6 +170,12 @@ See this `Branches` Google Drive directory: https://drive.google.com/drive/folde
 
   - **To be removed.**
 
+- LICENSE.txt
+
+  - The license for this repo.
+
+  - The text can be found [here](../LICENSE.txt).
+
 - README.md
 
   - This readme file for the repo.

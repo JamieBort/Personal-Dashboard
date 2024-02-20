@@ -26,18 +26,18 @@ If you see anything that needs to be corrected, please create a pull request! Th
 
 ## License
 
-<!--
+> [A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.](https://choosealicense.com/licenses/mit/)
 
-TODO: add a license. See this https://github.com/JamieBort/Personal-Dashboard/issues/12 issue.
+You can read the text [here](./LICENSE.txt).
 
-TODO: if relevant, add the table found with this https://github.com/JamieBort/LearningDirectory/blob/master/README.md#license license.
+| Permissions       | Conditions                      | Limitations  |
+| ----------------- | ------------------------------- | ------------ |
+| 🟢 Commercial use | 🔵 License and copyright notice | 🔴 Liability |
+| 🟢 Distribution   |                                 | 🔴 Warranty  |
+| 🟢 Modification   |                                 |              |
+| 🟢 Warranty       |                                 |              |
+|                   |                                 |              |
 
-~~Per [choosealicense.com](https://choosealicense.com/):~~
-
-> ~~The [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/) ... lets people do almost anything they want with your project, except distributing closed source versions.~~
-
-~~You can find the full text in this [./COPYING.txt](https://github.com/JamieBort/jamiebort.github.io/blob/master/COPYING.txt) file.~~
-
-~~[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)~~ -->
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ![Static Badge](https://img.shields.io/badge/Last_Updated-2024_Feb_19-gold)
