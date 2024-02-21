@@ -4,13 +4,37 @@
 
 ### Directories
 
+- api_google_calendar_attempt02/
+
+  - A directory to house files and directories from the `api_google_calendar_attempt02` branch.
+
+  - It contains
+
+    - the ./frontend/ directory.
+
+- api_google_gmail/
+
+  - A directory to house files and directories from the `api_google_gmail` branch.
+
+  - It contains
+
+    - the ./frontend/ directory.
+
+- api_trello_attempt01/
+
+  - A directory to house files and directories from the `api_trello_attempt01` branch.
+
+  - It contains
+
+    - the ./frontend/ directory.
+
 - back_end_java_attempt01/
 
   - A directory to house files and directories from the `back_end_java_attempt01` branch.
 
   - It contains
 
-    - ./backend-springboot/
+    - the ./backend-springboot/ directory.
 
 - back_end_java_attempt01_mysql/
 
@@ -18,7 +42,7 @@
 
   - It contains
 
-    - ./backend-springboot/
+    - the ./backend-springboot/ directory.
 
 - ProcedureForObtainingGoogleToken/
 
