@@ -130,13 +130,11 @@ See this `Branches` Google Drive directory: https://drive.google.com/drive/folde
 
     - This directory and its contents will be deleted when this branch is deleted. **To be removed.**
 
-  - administrative/progress/
+  - administrative/tempFiles/
 
-    - A copy of the Progress.md file from each branch.
+    - Created for [Issue #23](https://github.com/JamieBort/Personal-Dashboard/issues/23).
 
     - To be deleted when everything needed is extracted/salvaged.
-
-    - Created to address the [Issue #23](https://github.com/JamieBort/Personal-Dashboard/issues/23).
 
 - backend/
 
