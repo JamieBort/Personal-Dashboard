@@ -1,165 +1,61 @@
 # Personal Dashboard
 
-## What is this?/Who is it for?
+## About
 
-NOTE: 20201019 renamed the repo https://github.com/JamieBort/CalendarWebsite to https://github.com/JamieBort/PersonalDashboard.
+<!-- TODO: come back to this section to refine the wording. -->
 
-One website for things that have to do with my professional productivity and health. Including, but not limited to:
+<!-- TODO: Create an Issue to make this section look more attractive aesthetically. -->
 
-1. GitHub calendar graph.
-2. Similar images for going to the gym, working, etc. Feed all/many calendar events into it?
-3. BG data/milestones.
-4. Which days I run. Which days I lift weights. Which days I stretch. To that end, see this [search phrase](https://calendar.google.com/calendar/r/search?q=Export%20calendar%20to%20csv%20-%20look%20at%20trends).
-5. [The calendar in HackerRank](https://www.hackerrank.com/jamiebort). See screengrab of 'Submissions' below. It might not be the doc I need/want. [The HackerRank API docs](https://www.hackerrank.com/work/apidocs#!/Introduction/options_intro_api).
-   ![HackerRankCalendar](https://github.com/JamieBort/CalendarWebsite/blob/master/images/HackerRankCalendarGraph)
+A website for displaying and searching daily data; such as blood glucose numbers and upcoming events.
 
-**The sources of information are going to be:**
+It will be used to help manage my diabetes better and my time better.
 
-1. The Dexcom API. Failing that, or until I get it working, it will be a spreadsheet that I'll generate periodically from their app. Also, the name of the branch to develop this is 'Dexcom'.
-2. The GitHub API for the GitHub calendar. The name of the branch to develop this is 'GitCalendar'.
-3. The Google Calendar API for the Google calendar. The name of the branch to develop this is 'GoogleCalendar'.
-4. The Google Spreadsheet API for my gym spreadsheet. The name of the branch to develop this is 'GymSpreadsheet'.
+To assist with my health, it will pull data in from a few apps that I use to manage my diabetes. Such as NightScout, my [Data Logging App](https://github.com/JamieBort/Data-Logging-App), Strava, a sleep app, and WGER a weightlifting app.
 
-The first version, or starting point of this website is based on this repository [github-calendar](https://github.com/IonicaBizau/github-calendar).
+To assist with organization it will pull data from Google Calendar, Trello, and GitHub.
 
-**The following are copied from the GitCalendar/github-calendar/example directory:**
+To assist with my professional progress, it will pul data in from LinkedIn, Pocket, and Logseq.
 
-1. CalendarWebsite/css/
-2. CalendarWebsite/js/
-3. CalendarWebsite/index.html
+<!-- ### Notable Features
 
-Once this is functional, remove the bookmarked pages [here](chrome://bookmarks/?id=1558).
+TODO: After I am more organized and/or before the Deploy Minimum Viable Product of Website milestone is completed , come back to this section to add notable features.
 
-[The Trello Card associated with this project](https://trello.com/c/XdNG65rY/154-calendarwebsite).
+TODO: Create an Issue to make this section look more attractive aesthetically.
 
-## My View of this Project.
+Notable features of this site are: -->
 
-I envision this site to be something I can navigate to from at least my computer. Eventually I will be able to navigate to it from other devices such as my phone. And maybe that will be it. Ideally I'll load the page without entering any credentials. But this may not be possible. At which point I will be able to view on the one page all the information I care to see.
+## Aspirations
 
-Description:include in website:
+<!-- TODO: After I am more organized and/or before the Deploy Minimum Viable Product of Website milestone is completed , come back to this section to add notable features.
 
-1. my weight in my website 170 lbs
-2. Last eye check-up
-3. Last physical
-4. a1c
+TODO: Create an Issue to make this section look more attractive aesthetically. -->
 
-## Explanation of files and directories
+This site will be built using Svelt TypeScript front end and Java backend. Which database is yet to be seen.
 
-In order as they appear in the repo.
+Any data that is private in nature will be behind authentication.
 
-**Note to self** - refer to https://github.com/JamieBort/LearningDirectory/blob/master/README.md#explanation-of-other-files-and-directories-in-this-repository for consistent wording.
+## Contribute
 
-#### old/ directory
+<!-- TODO: After I am more organized and/or before the Deploy Minimum Viable Product of Website milestone is completed , come back to this section to add notable features.
 
-To be filled in.
+TODO: Create an Issue to make this section look more attractive aesthetically. -->
 
-#### README_Files_From_Old_Branches/ directory
+If you see anything that needs to be corrected, please create a pull request! Thank you.
 
-To be filled in.
+## License
 
-#### .gitignore file
+> [A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.](https://choosealicense.com/licenses/mit/)
 
-To be filled in.
+You can read the text [here](./LICENSE.txt).
 
-#### Progress.md file
+| Permissions       | Conditions                      | Limitations  |
+| ----------------- | ------------------------------- | ------------ |
+| 🟢 Commercial use | 🔵 License and copyright notice | 🔴 Liability |
+| 🟢 Distribution   |                                 | 🔴 Warranty  |
+| 🟢 Modification   |                                 |              |
+| 🟢 Warranty       |                                 |              |
+|                   |                                 |              |
 
-- For my personal organization.
-- Contains `Next Steps`,`Status`, `Tasks`, and `Associated Links` sections.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Explanation of other files and directories in this repository.
-
-Licensing Info
-To be edited later.
-
-Code of Conduct
-To be edited later.
-
-Contributing
-To be edited later.
-
-## Branch Structure
-
-See this `Branches` Google Drive directory: https://drive.google.com/drive/folders/1FDanxo19BdQ_MsztNeL4sq6jbHvGSpiy
-
-    +-- master/main (production branch - only work that is mean to go live is merged into here)
-        |
-        |
-        +-- dev -   All development work is off of this branch.
-                    Not until it passes does it go into the master branch.
-            |
-            +-- fullstack - To set up a deployed full stack app.
-            |
-            |
-            +-- hosting -   For hosting on my domains.
-                            AND for hosting on my mobile (for development purposes).
-                            (Not yet used/created.)
-            |   |
-            |   |
-            |   +-- mobile_hosting -    Branch for "hosting" on my mobile device.
-                                        (Not yet used/created.)
-            |   |   |
-            |   |   |
-            |   |   +-- mobile_hosting_research -   One for doing research for this task.
-                                                    (Not yet used/created.)
-            |   |   |
-            |   |   |
-            |   |   +-- mobile_hosting_implementing -   One for implementing it - expo go app.
-                                                        (Not yet used/created.)
-            |   |
-            |   |
-            |   +-- domain_hosting -    Branch for hosting on my domains.
-                                        (Not yet used/created.)
-            |       |
-            |       |
-            |       +-- domain_hosting_research -   For doing research for this task.
-                                                    (Not yet used/created.)
-            |       |
-            |       |
-            |       +-- domain_hosting_implementing -   For implementing it.
-                                                        (Not yet used/created.)
-            |
-            |
-            +-- back_end -  For all things backend related.
-                            (Created.)
-            |   |
-            |   |
-            |   +-- java_or_node_back_end - Determine whether to use Java or Node.js
-                                            (Created.)
-            |
-            |
-            +-- front_end - For all things frontend related.
-                            (Created.)
-                |
-                |
-                +-- front_end_attempt01 -   For building the React Native, React.js, or React Native and React.js front end.
-                                            (Created.)
-                                            Build desktop version.
-                |
-                |
-                +-- front_end_mobile -  Building the React Native, React.js, or React Native and React.js front end for mobile.
-                                        (Not yet used/created.)
-                                        Build mobile version.
-                                        For this, see `3 Ways To Implement Responsive Design In Your React App` in the `Research.md` file.
-                |
-                |
-                +-- api -   For developing api calls.
-                            (Created.)
-                |   |
-                |   |
-                |   +-- api_trello -    The Trello api.
-                                        (Created.)
-                |   |
-                |   |
-                |   +-- Google Calendar -   The Google Calendar api.
-                                            (Not yet used/created.)
-                |   |
-                |   |
-                |   +-- Google Keep -   The Google Keep api.
-                                        (Not yet used/created.)
-                |   |
-                |   |
-                |   +-- GetPocket - The GetPocket api.
-                                    (Not yet used/created.)
-                |
-                |
-                +-- feature branch(es) (a branch for each feature to be developed.)
+![Static Badge](https://img.shields.io/badge/Last_Updated-2024_Feb_19-gold)
