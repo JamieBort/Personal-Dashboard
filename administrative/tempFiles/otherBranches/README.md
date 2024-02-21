@@ -4,6 +4,22 @@
 
 ### Directories
 
+- back_end_java_attempt01/
+
+  - A directory to house files and directories from the `back_end_java_attempt01` branch.
+
+  - It contains
+
+    - ./backend-springboot/
+
+- back_end_java_attempt01_mysql/
+
+  - A directory to house files and directories from the `back_end_java_attempt01_mysql` branch.
+
+  - It contains
+
+    - ./backend-springboot/
+
 - ProcedureForObtainingGoogleToken/
 
   - A directory housing instructions for obtaining a google token.
