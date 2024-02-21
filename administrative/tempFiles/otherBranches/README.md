@@ -1,5 +1,7 @@
 # otherBranches
 
+Directories and files from other branches.
+
 ## Directories and Files
 
 ### Directories
