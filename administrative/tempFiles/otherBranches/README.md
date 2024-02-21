@@ -44,16 +44,6 @@
 
     - the ./backend-springboot/ directory.
 
-- ProcedureForObtainingGoogleToken/
-
-  - A directory housing instructions for obtaining a google token.
-
-  - To be deleted when everything needed is extracted/salvaged.
-
-  - Created to address the [Issue #23](https://github.com/JamieBort/Personal-Dashboard/issues/23).
-
-  - Copied from https://github.com/JamieBort/Personal-Dashboard/tree/api_google_calendar_attempt02/ProcedureForObtainingGoogleToken/
-
 - progress/
 
   - A directory housing a copy of the Progress.md file from each branch.
