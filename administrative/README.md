@@ -132,9 +132,11 @@ See this `Branches` Google Drive directory: https://drive.google.com/drive/folde
 
   - administrative/progress/
 
-    - A copy of teh Progress.md file from each branch.
+    - A copy of the Progress.md file from each branch.
 
     - To be deleted when everything needed is extracted/salvaged.
+
+    - Created to address the [Issue #23](https://github.com/JamieBort/Personal-Dashboard/issues/23).
 
 - backend/
 

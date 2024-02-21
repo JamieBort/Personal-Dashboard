@@ -1,6 +1,12 @@
 # progress
 
-List of all the branches:
+A copy of the Progress.md file from each branch.
+
+To be deleted when everything needed is extracted/salvaged.
+
+Created to address the [Issue #23](https://github.com/JamieBort/Personal-Dashboard/issues/23).
+
+## List of all the branches
 
 ```
 fullstack
