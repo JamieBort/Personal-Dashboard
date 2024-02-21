@@ -24,7 +24,7 @@ TODO: Create an Issue to make this section look more attractive aesthetically.
 
 Notable features of this site are: -->
 
-### Aspirations
+## Aspirations
 
 <!-- TODO: After I am more organized and/or before the Deploy Minimum Viable Product of Website milestone is completed , come back to this section to add notable features.
 

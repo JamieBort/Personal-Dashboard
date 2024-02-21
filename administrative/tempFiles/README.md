@@ -1,5 +1,11 @@
 # tempFiles/
 
+Contains files and directories from
+
+- other branches
+
+- as well as files and directories from the root directory in this `fullstack` branch.
+
 To be deleted when everything needed is extracted/salvaged.
 
 Created to address the [Issue #23](https://github.com/JamieBort/Personal-Dashboard/issues/23).
@@ -10,11 +16,11 @@ Created to address the [Issue #23](https://github.com/JamieBort/Personal-Dashboa
 
 - otherBranches/
 
-  - Files from other branches.
+  - Files and directories from other branches.
 
 - thisDirectory/
 
-  - Directories moved into this one from the root directory.
+  - Directories moved into this one from the root directory in this `fullstack` branch.
 
 ### Files
 

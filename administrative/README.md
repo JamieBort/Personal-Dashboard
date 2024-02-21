@@ -132,6 +132,12 @@ See this `Branches` Google Drive directory: https://drive.google.com/drive/folde
 
   - administrative/tempFiles/
 
+    - Contains files and directories from
+
+      - other branches
+
+      - as well as files and directories from the root directory in this `fullstack` branch.
+
     - Created for [Issue #23](https://github.com/JamieBort/Personal-Dashboard/issues/23).
 
     - To be deleted when everything needed is extracted/salvaged.
