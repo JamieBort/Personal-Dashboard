@@ -23,24 +23,39 @@ const name_and_status_v2 = [
   { name: "CustomerDatabase", status: { fate: 3, info: 3, note: "Need to take a closer look." } },
   {
     name: "BlackjackHandCalculator",
-    status: { fate: 1, info: 1, note: "" },
+    status: { fate: 3, info: 3, note: "Need to check. 50/50 chance delete or fold into TheIronYard repo, the LearningDirectory repo, or something similar." },
   },
-  { name: "GitHubDataVCard", status: { fate: 1, info: 1, note: "" } },
-  { name: "RecipeSearch", status: { fate: 1, info: 1, note: "" } },
+  {
+    name: "GitHubDataVCard",
+    status: { fate: 3, info: 3, note: "Need to check. 50/50 chance delete or fold into TheIronYard repo, the LearningDirectory repo, or something similar." },
+  },
+  {
+    name: "RecipeSearch",
+    status: { fate: 3, info: 3, note: "Need to check. 50/50 chance delete or fold into TheIronYard repo, the LearningDirectory repo, or something similar." },
+  },
   {
     name: "Brick_Breaker_Mashup",
-    status: { fate: 1, info: 1, note: "" },
+    status: { fate: 3, info: 3, note: "Need to check. 50/50 chance delete or fold into TheIronYard repo, the LearningDirectory repo, or something similar." },
   },
-  { name: "BuildATodoList", status: { fate: 1, info: 1, note: "" } },
+  {
+    name: "BuildATodoList",
+    status: { fate: 3, info: 3, note: "Need to check. 50/50 chance delete or fold into TheIronYard repo, the LearningDirectory repo, or something similar." },
+  },
   {
     name: "CreateASiteWithALogin",
-    status: { fate: 1, info: 1, note: "" },
+    status: { fate: 1, info: 3, note: "Keep at least until I have my own login successfully working." },
   },
-  { name: "express-lecture-1", status: { fate: 1, info: 1, note: "" } },
-  { name: "week3Calculator", status: { fate: 1, info: 1, note: "" } },
+  {
+    name: "express-lecture-1",
+    status: { fate: 3, info: 3, note: "Need to check. 50/50 chance delete or fold into TheIronYard repo, the LearningDirectory repo, or something similar." },
+  },
+  {
+    name: "week3Calculator",
+    status: { fate: 3, info: 3, note: "Need to check. 50/50 chance delete or fold into TheIronYard repo, the LearningDirectory repo, or something similar." },
+  },
   {
     name: "GitHubDataVCardWithFetch",
-    status: { fate: 1, info: 1, note: "" },
+    status: { fate: 3, info: 3, note: "Need to check. 50/50 chance delete or fold into TheIronYard repo, the LearningDirectory repo, or something similar." },
   },
   {
     name: "Week4iTunesMusicSearch",
@@ -95,26 +110,26 @@ const name_and_status_v2 = [
   { name: "TrelloAPI", status: { fate: 1, info: 1, note: "" } },
   {
     name: "MaxxPotentialCareerLab",
-    status: { fate: 1, info: 1, note: "" },
+    status: { fate: 3, info: 3, note: "Need to take a closer look." },
   },
   { name: "GmailAPIPractice", status: { fate: 1, info: 1, note: "" } },
-  { name: "JamieBort", status: { fate: 1, info: 1, note: "" } },
+  { name: "JamieBort", status: { fate: 1, info: 2, note: "" } },
   {
     name: "ReactJavaFrontBack",
-    status: { fate: 1, info: 1, note: "" },
+    status: { fate: 3, info: 3, note: "Need to take a closer look." },
   },
   {
     name: "DummyRepoPublicNameChange",
-    status: { fate: 1, info: 1, note: "" },
+    status: { fate: 3, info: 2, note: "Probably delete this one." },
   },
-  { name: "DummyRepoPrivate", status: { fate: 1, info: 1, note: "" } },
+  { name: "DummyRepoPrivate", status: { fate: 2, info: 2, note: "" } },
   { name: "GoogleMap", status: { fate: 1, info: 1, note: "" } },
-  { name: "tempMapSearch", status: { fate: 1, info: 1, note: "" } },
-  { name: "EastSideRunClub", status: { fate: 1, info: 1, note: "" } },
-  { name: "CNYSilentBookClub", status: { fate: 1, info: 1, note: "" } },
-  { name: "CodeTheDream", status: { fate: 1, info: 1, note: "" } },
+  { name: "tempMapSearch", status: { fate: 3, info: 3, note: "Need to take a closer look." } },
+  { name: "EastSideRunClub", status: { fate: 1, info: 2, note: "" } },
+  { name: "CNYSilentBookClub", status: { fate: 1, info: 2, note: "" } },
+  { name: "CodeTheDream", status: { fate: 1, info: 2, note: "" } },
   { name: "rockpaperscissors", status: { fate: 1, info: 2, note: "Fold into TheIronYard repo, the LearningDirectory repo, or something similar." } },
-  { name: "JamieBortPersonal", status: { fate: 1, info: 1, note: "" } },
+  { name: "JamieBortPersonal", status: { fate: 3, info: 2, note: "Need to re-evaluate this one." } },
   {
     name: "personal_dashboard_backend_heroku",
     status: { fate: 3, info: 3, note: "Potentially has something to salvage. Need to check this repo." },
@@ -127,7 +142,7 @@ const name_and_status_v2 = [
   { name: "R6-blog", status: { fate: 1, info: 1, note: "" } },
   {
     name: "to-do-list-videoWork",
-    status: { fate: 1, info: 1, note: "" },
+    status: { fate: 2, info: 2, note: "" },
   },
   {
     name: "Espanol-ingles-leyendo-hora",
@@ -144,7 +159,7 @@ const name_and_status_v2 = [
   },
   {
     name: "cgm-remote-monitor",
-    status: { fate: 1, info: 1, note: "" },
+    status: { fate: 1, info: 3, note: "Definitely keep this one. Need to take a closer look to see if it has anything that I can use..." },
   },
   {
     name: "03-task-manager-with-React-front-end",
@@ -178,6 +193,16 @@ const name_and_status_v2 = [
     status: { fate: 1, info: 2, note: "" },
   },
 ];
+
+// NOTE: Cases to test for:
+// if: status: { fate: 1, info: 2, note: "" },
+// then I didn't consider this repo.
+// if: status: { fate: 2, info: 2, note: "" },
+// then delete this repo
+// if: status: { fate: 2, info: 1, note: "" },
+// delete this repo. but salvage info first
+// if: status: { fate: 1, info: 1, note: "" },
+// make note of the info, leave the repo intact.
 
 // // TODO: delete this variable.
 // // NOTE: (6) The array containing the names and status' of each repo. Added to the results.js file.
