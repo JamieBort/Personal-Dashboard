@@ -372,12 +372,19 @@ function extractName(param) {
 
 // NOTE: (5) The function I used to extract just the names of each repo. And to add a status property to each.
 function addStatus(param) {
+  const FATE = 1, // 1 = Keep as is. 2 = Delete. 3 = Other = see note.
+    INFO = 1, // 1 = Info to salvage. 2 = No info to salvage.  3 = Other = see note.
+    NOTE = "";
+
   const tempArray = [];
   const edges = param.data.user.repositories.edges;
   //   return edges;
   edges.forEach((element) => {
     const node = element.node;
-    node.status = "Need to check this repo.";
+    // node.status = "Need to check this repo.";
+    node.status = { fate: FATE, info: INFO, note: NOTE };
+
+    // { name: "rockpaperscissors", status: { fate: "Keep.", info: "Nothing to salvage.", note: "Fold into TheIronYard repo, the LearningDirectory repo, or something similar." } },
     // console.log("node:", node);
     tempArray.push(node);
   });
