@@ -54,6 +54,8 @@ Directories and files from other branches.
 
   - Created to address the [Issue #23](https://github.com/JamieBort/Personal-Dashboard/issues/23).
 
+  - Markdown file listing tasks that need to be accomplished and their status.
+
 ### Files
 
 - README.md
