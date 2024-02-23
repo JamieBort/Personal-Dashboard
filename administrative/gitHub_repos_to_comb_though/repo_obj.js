@@ -805,32 +805,32 @@ const name_and_status_v3 = modify_name_and_status(name_and_status_v2);
 //   }
 // }
 
-// NOTE: The list of repos to keep.
-// TODO: Revisit this one - there is info to salvage and move around.
-for (const property in name_and_status_v3) {
-  if (name_and_status_v3[property].length != 0 && property.split(" ")[0] === "Keep.") {
-    console.log("=====================");
-    console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
-    name_and_status_v3[property].forEach((element) => console.log(element));
-  }
-}
-
-// // NOTE: The list of repos that do not start with "Keep." nor "Delete.".
-// // TODO:
-// //      For "Create an IronYard repo and put these in there. Length: 20.", create repo to house them all in for now.
-// //      For "See note. See note. Length: 7.", inspect more closely.
-// //      For "See note. No info. Length: 2.", one to keep one to delete.
+// // NOTE: The list of repos to keep.
+// // TODO: Revisit this one - there is info to salvage and move around.
 // for (const property in name_and_status_v3) {
-//   if (name_and_status_v3[property].length != 0 && property.split(" ")[0] != "Keep." && property.split(" ")[0] != "Delete.") {
+//   if (name_and_status_v3[property].length != 0 && property.split(" ")[0] === "Keep.") {
 //     console.log("=====================");
 //     console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
-//     name_and_status_v3[property].forEach((element) => {
-//       console.log(element);
-//       // console.log("element.name:", element.name);
-//       // console.log(element.name);
-//     });
+//     name_and_status_v3[property].forEach((element) => console.log(element));
 //   }
 // }
+
+// NOTE: The list of repos that do not start with "Keep." nor "Delete.".
+// TODO:
+//      For "Create an IronYard repo and put these in there. Length: 20.", create repo to house them all in for now.
+//      For "See note. See note. Length: 7.", inspect more closely.
+//      For "See note. No info. Length: 2.", one to keep one to delete.
+for (const property in name_and_status_v3) {
+  if (name_and_status_v3[property].length != 0 && property.split(" ")[0] != "Keep." && property.split(" ")[0] != "Delete.") {
+    console.log("=====================");
+    console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
+    name_and_status_v3[property].forEach((element) => {
+      console.log(element);
+      // console.log("element.name:", element.name);
+      // console.log(element.name);
+    });
+  }
+}
 
 // // Delete. No info.
 // // "Delete. No info. And more."
