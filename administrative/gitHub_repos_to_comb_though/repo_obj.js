@@ -1,8 +1,5 @@
 // ./administrative/gitHub_repos_to_comb_though/repo_obj.js
 
-// NOTE: This file/directory should be added to this https://trello.com/c/NnqWRZIE/158-clean-up-github-repositories Trello card.
-// TODO: create a private gist for this code to refer back to at a later date. Add a reference to it in the Clean Up GitHub Repositories Trello card.
-
 // NOTE: (1) The original list generated from an GraphyQL call via https://docs.github.com/en/graphql/overview/explorer
 const original_rep_obj = {
   data: {
@@ -467,139 +464,141 @@ function addStatus(param) {
   return tempArray;
 }
 // console.log("name_and_status:",addStatus(original_rep_obj));
+const name_and_status = addStatus(original_rep_obj);
+console.log("name_and_status:", name_and_status);
 
-// NOTE: (6) The array containing the names and status' of each repo. Added to the results.js file.
-const name_and_status = [
-  { name: "iBeer_Layout-Flexbox", status: "Need to check this repo." },
-  { name: "Bears", status: "Need to check this repo." },
-  {
-    name: "Week1-WeeklyAssignment",
-    status: "Need to check this repo.",
-  },
-  { name: "Portfolio-Website", status: "Need to check this repo." },
-  { name: "FormBuilder", status: "Need to check this repo." },
-  { name: "CustomerDatabase", status: "Need to check this repo." },
-  {
-    name: "BlackjackHandCalculator",
-    status: "Need to check this repo.",
-  },
-  { name: "GitHubDataVCard", status: "Need to check this repo." },
-  { name: "RecipeSearch", status: "Need to check this repo." },
-  { name: "Brick_Breaker_Mashup", status: "Need to check this repo." },
-  { name: "BuildATodoList", status: "Need to check this repo." },
-  { name: "CreateASiteWithALogin", status: "Need to check this repo." },
-  { name: "express-lecture-1", status: "Need to check this repo." },
-  { name: "week3Calculator", status: "Need to check this repo." },
-  {
-    name: "GitHubDataVCardWithFetch",
-    status: "Need to check this repo.",
-  },
-  {
-    name: "Week4iTunesMusicSearch",
-    status: "Need to check this repo.",
-  },
-  {
-    name: "Create-A-User-Directory",
-    status: "Need to check this repo.",
-  },
-  {
-    name: "BuildAGameWithNodeAndExpress",
-    status: "Need to check this repo.",
-  },
-  { name: "ReturnToRobots", status: "Need to check this repo." },
-  { name: "CodeSnippetOrganizer", status: "Need to check this repo." },
-  { name: "BillMurrayTime", status: "Need to check this repo." },
-  { name: "PuppyLove", status: "Need to check this repo." },
-  {
-    name: "iPhysicist-CSSLayoutFlexbox",
-    status: "Need to check this repo.",
-  },
-  { name: "GitHubPractice", status: "Need to check this repo." },
-  { name: "ResponsiveNavigation", status: "Need to check this repo." },
-  {
-    name: "CodeForDurhamAffordableHousingDataSet",
-    status: "Need to check this repo.",
-  },
-  { name: "CodeChallenges", status: "Need to check this repo." },
-  {
-    name: "Talks_Presentations_Workshops_and_Resources",
-    status: "Need to check this repo.",
-  },
-  { name: "LearningDirectory", status: "Need to check this repo." },
-  { name: "Personal-Dashboard", status: "Need to check this repo." },
-  { name: "Resources", status: "Need to check this repo." },
-  { name: "TestPrivateRepo", status: "Need to check this repo." },
-  { name: "DotENVPractice", status: "Need to check this repo." },
-  { name: "TrelloHeatMap", status: "Need to check this repo." },
-  {
-    name: "GoogleCalendarAPIPractice",
-    status: "Need to check this repo.",
-  },
-  { name: "TrelloAPI", status: "Need to check this repo." },
-  {
-    name: "MaxxPotentialCareerLab",
-    status: "Need to check this repo.",
-  },
-  { name: "GmailAPIPractice", status: "Need to check this repo." },
-  { name: "JamieBort", status: "Need to check this repo." },
-  { name: "ReactJavaFrontBack", status: "Need to check this repo." },
-  {
-    name: "DummyRepoPublicNameChange",
-    status: "Need to check this repo.",
-  },
-  { name: "DummyRepoPrivate", status: "Need to check this repo." },
-  { name: "GoogleMap", status: "Need to check this repo." },
-  { name: "tempMapSearch", status: "Need to check this repo." },
-  { name: "EastSideRunClub", status: "Need to check this repo." },
-  { name: "CNYSilentBookClub", status: "Need to check this repo." },
-  { name: "CodeTheDream", status: "Need to check this repo." },
-  { name: "rockpaperscissors", status: "Need to check this repo." },
-  { name: "JamieBortPersonal", status: "Need to check this repo." },
-  {
-    name: "personal_dashboard_backend_heroku",
-    status: "Need to check this repo.",
-  },
-  { name: "intro-to-programming", status: "Need to check this repo." },
-  { name: "R6-rest-rails", status: "Need to check this repo." },
-  { name: "R6-blog", status: "Need to check this repo." },
-  { name: "to-do-list-videoWork", status: "Need to check this repo." },
-  {
-    name: "Espanol-ingles-leyendo-hora",
-    status: "Need to check this repo.",
-  },
-  { name: "to-do-list-classwork", status: "Need to check this repo." },
-  { name: "Kanban-Board", status: "Need to check this repo." },
-  { name: "weight-lifting-app", status: "Need to check this repo." },
-  { name: "cgm-remote-monitor", status: "Need to check this repo." },
-  {
-    name: "03-task-manager-with-React-front-end",
-    status: "Need to check this repo.",
-  },
-  { name: "API-Playground", status: "Need to check this repo." },
-  {
-    name: "react-gh-pages-tutorial",
-    status: "Need to check this repo.",
-  },
-  {
-    name: "routed-react-app-gh-pages",
-    status: "Need to check this repo.",
-  },
-  {
-    name: "GitHub-Actions-Learning-repo",
-    status: "Need to check this repo.",
-  },
-  { name: "Data-Logging-App", status: "Need to check this repo." },
-  { name: "To-Do-App", status: "Need to check this repo." },
-  { name: "self-care-survey-form", status: "Need to check this repo." },
-  {
-    name: "Awesome-Profile-README-templates",
-    status: "Need to check this repo.",
-  },
-  {
-    name: "Digital_Knowledge_Base",
-    status: "Need to check this repo.",
-  },
-];
+// // NOTE: (6) The array containing the names and status' of each repo. Added to the results.js file.
+// const name_and_status = [
+//   { name: "iBeer_Layout-Flexbox", status: "Need to check this repo." },
+//   { name: "Bears", status: "Need to check this repo." },
+//   {
+//     name: "Week1-WeeklyAssignment",
+//     status: "Need to check this repo.",
+//   },
+//   { name: "Portfolio-Website", status: "Need to check this repo." },
+//   { name: "FormBuilder", status: "Need to check this repo." },
+//   { name: "CustomerDatabase", status: "Need to check this repo." },
+//   {
+//     name: "BlackjackHandCalculator",
+//     status: "Need to check this repo.",
+//   },
+//   { name: "GitHubDataVCard", status: "Need to check this repo." },
+//   { name: "RecipeSearch", status: "Need to check this repo." },
+//   { name: "Brick_Breaker_Mashup", status: "Need to check this repo." },
+//   { name: "BuildATodoList", status: "Need to check this repo." },
+//   { name: "CreateASiteWithALogin", status: "Need to check this repo." },
+//   { name: "express-lecture-1", status: "Need to check this repo." },
+//   { name: "week3Calculator", status: "Need to check this repo." },
+//   {
+//     name: "GitHubDataVCardWithFetch",
+//     status: "Need to check this repo.",
+//   },
+//   {
+//     name: "Week4iTunesMusicSearch",
+//     status: "Need to check this repo.",
+//   },
+//   {
+//     name: "Create-A-User-Directory",
+//     status: "Need to check this repo.",
+//   },
+//   {
+//     name: "BuildAGameWithNodeAndExpress",
+//     status: "Need to check this repo.",
+//   },
+//   { name: "ReturnToRobots", status: "Need to check this repo." },
+//   { name: "CodeSnippetOrganizer", status: "Need to check this repo." },
+//   { name: "BillMurrayTime", status: "Need to check this repo." },
+//   { name: "PuppyLove", status: "Need to check this repo." },
+//   {
+//     name: "iPhysicist-CSSLayoutFlexbox",
+//     status: "Need to check this repo.",
+//   },
+//   { name: "GitHubPractice", status: "Need to check this repo." },
+//   { name: "ResponsiveNavigation", status: "Need to check this repo." },
+//   {
+//     name: "CodeForDurhamAffordableHousingDataSet",
+//     status: "Need to check this repo.",
+//   },
+//   { name: "CodeChallenges", status: "Need to check this repo." },
+//   {
+//     name: "Talks_Presentations_Workshops_and_Resources",
+//     status: "Need to check this repo.",
+//   },
+//   { name: "LearningDirectory", status: "Need to check this repo." },
+//   { name: "Personal-Dashboard", status: "Need to check this repo." },
+//   { name: "Resources", status: "Need to check this repo." },
+//   { name: "TestPrivateRepo", status: "Need to check this repo." },
+//   { name: "DotENVPractice", status: "Need to check this repo." },
+//   { name: "TrelloHeatMap", status: "Need to check this repo." },
+//   {
+//     name: "GoogleCalendarAPIPractice",
+//     status: "Need to check this repo.",
+//   },
+//   { name: "TrelloAPI", status: "Need to check this repo." },
+//   {
+//     name: "MaxxPotentialCareerLab",
+//     status: "Need to check this repo.",
+//   },
+//   { name: "GmailAPIPractice", status: "Need to check this repo." },
+//   { name: "JamieBort", status: "Need to check this repo." },
+//   { name: "ReactJavaFrontBack", status: "Need to check this repo." },
+//   {
+//     name: "DummyRepoPublicNameChange",
+//     status: "Need to check this repo.",
+//   },
+//   { name: "DummyRepoPrivate", status: "Need to check this repo." },
+//   { name: "GoogleMap", status: "Need to check this repo." },
+//   { name: "tempMapSearch", status: "Need to check this repo." },
+//   { name: "EastSideRunClub", status: "Need to check this repo." },
+//   { name: "CNYSilentBookClub", status: "Need to check this repo." },
+//   { name: "CodeTheDream", status: "Need to check this repo." },
+//   { name: "rockpaperscissors", status: "Need to check this repo." },
+//   { name: "JamieBortPersonal", status: "Need to check this repo." },
+//   {
+//     name: "personal_dashboard_backend_heroku",
+//     status: "Need to check this repo.",
+//   },
+//   { name: "intro-to-programming", status: "Need to check this repo." },
+//   { name: "R6-rest-rails", status: "Need to check this repo." },
+//   { name: "R6-blog", status: "Need to check this repo." },
+//   { name: "to-do-list-videoWork", status: "Need to check this repo." },
+//   {
+//     name: "Espanol-ingles-leyendo-hora",
+//     status: "Need to check this repo.",
+//   },
+//   { name: "to-do-list-classwork", status: "Need to check this repo." },
+//   { name: "Kanban-Board", status: "Need to check this repo." },
+//   { name: "weight-lifting-app", status: "Need to check this repo." },
+//   { name: "cgm-remote-monitor", status: "Need to check this repo." },
+//   {
+//     name: "03-task-manager-with-React-front-end",
+//     status: "Need to check this repo.",
+//   },
+//   { name: "API-Playground", status: "Need to check this repo." },
+//   {
+//     name: "react-gh-pages-tutorial",
+//     status: "Need to check this repo.",
+//   },
+//   {
+//     name: "routed-react-app-gh-pages",
+//     status: "Need to check this repo.",
+//   },
+//   {
+//     name: "GitHub-Actions-Learning-repo",
+//     status: "Need to check this repo.",
+//   },
+//   { name: "Data-Logging-App", status: "Need to check this repo." },
+//   { name: "To-Do-App", status: "Need to check this repo." },
+//   { name: "self-care-survey-form", status: "Need to check this repo." },
+//   {
+//     name: "Awesome-Profile-README-templates",
+//     status: "Need to check this repo.",
+//   },
+//   {
+//     name: "Digital_Knowledge_Base",
+//     status: "Need to check this repo.",
+//   },
+// ];
 
 const name_and_status_v2 = [
   {
@@ -840,21 +839,21 @@ function modify_name_and_status(param) {
 
   return tempObj;
 }
-// console.log(modify_name_and_status(name_and_status_v2));
-const name_and_status_v3 = modify_name_and_status(name_and_status_v2);
+// // console.log(modify_name_and_status(name_and_status_v2));
+// const name_and_status_v3 = modify_name_and_status(name_and_status_v2);
 
-// NOTE: to see the whole object.
-for (const property in name_and_status_v3) {
-  // console.log(`${property}: ${object[property]}`);
-  console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
-  name_and_status_v3[property].forEach((element) => {
-    // console.log(`${property}`, element);
-    console.log(element);
-  });
-  console.log("=====================");
-}
+// // NOTE: to see the whole object.
+// for (const property in name_and_status_v3) {
+//   // console.log(`${property}: ${object[property]}`);
+//   console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
+//   name_and_status_v3[property].forEach((element) => {
+//     // console.log(`${property}`, element);
+//     console.log(element);
+//   });
+//   console.log("=====================");
+// }
 
-// // NOTE: For looking at just the ones that I need to look at.
-// name_and_status_v3["Yet to be considered."].forEach((element) => {
-//   console.log("element:", element);
-// });
+// // // NOTE: For looking at just the ones that I need to look at.
+// // name_and_status_v3["Yet to be considered."].forEach((element) => {
+// //   console.log("element:", element);
+// // });
