@@ -357,99 +357,7 @@ const original_rep_obj = {
   },
 };
 
-// NOTE: (2) The function I used to extract just the names of each repo.
-function extractName(param) {
-  const tempArray = [];
-  //   let tempArray = [];
-  //   console.log("Process");
-  const edges = param.data.user.repositories.edges;
-  //   console.log("edges:", edges);
-  edges.forEach((element) => {
-    // console.log("element:", element);
-    const name = element.node.name;
-    // console.log("name:", name);
-    tempArray.push(name);
-  });
-  return tempArray;
-}
-
-// // NOTE: (3) The result of that function. newObj is an array of the names of my repos.
-// console.log("array_of_repo_names:", extractName(original_rep_obj));
-
-// NOTE: (4) The array, copied and pasted from the console. Added to the results.js file.
-const array_of_repo_names = [
-  "iBeer_Layout-Flexbox",
-  "Bears",
-  "Week1-WeeklyAssignment",
-  "Portfolio-Website",
-  "FormBuilder",
-  "CustomerDatabase",
-  "BlackjackHandCalculator",
-  "GitHubDataVCard",
-  "RecipeSearch",
-  "Brick_Breaker_Mashup",
-  "BuildATodoList",
-  "CreateASiteWithALogin",
-  "express-lecture-1",
-  "week3Calculator",
-  "GitHubDataVCardWithFetch",
-  "Week4iTunesMusicSearch",
-  "Create-A-User-Directory",
-  "BuildAGameWithNodeAndExpress",
-  "ReturnToRobots",
-  "CodeSnippetOrganizer",
-  "BillMurrayTime",
-  "PuppyLove",
-  "iPhysicist-CSSLayoutFlexbox",
-  "GitHubPractice",
-  "ResponsiveNavigation",
-  "CodeForDurhamAffordableHousingDataSet",
-  "CodeChallenges",
-  "Talks_Presentations_Workshops_and_Resources",
-  "LearningDirectory",
-  "Personal-Dashboard",
-  "Resources",
-  "TestPrivateRepo",
-  "DotENVPractice",
-  "TrelloHeatMap",
-  "GoogleCalendarAPIPractice",
-  "TrelloAPI",
-  "MaxxPotentialCareerLab",
-  "GmailAPIPractice",
-  "JamieBort",
-  "ReactJavaFrontBack",
-  "DummyRepoPublicNameChange",
-  "DummyRepoPrivate",
-  "GoogleMap",
-  "tempMapSearch",
-  "EastSideRunClub",
-  "CNYSilentBookClub",
-  "CodeTheDream",
-  "rockpaperscissors",
-  "JamieBortPersonal",
-  "personal_dashboard_backend_heroku",
-  "intro-to-programming",
-  "R6-rest-rails",
-  "R6-blog",
-  "to-do-list-videoWork",
-  "Espanol-ingles-leyendo-hora",
-  "to-do-list-classwork",
-  "Kanban-Board",
-  "weight-lifting-app",
-  "cgm-remote-monitor",
-  "03-task-manager-with-React-front-end",
-  "API-Playground",
-  "react-gh-pages-tutorial",
-  "routed-react-app-gh-pages",
-  "GitHub-Actions-Learning-repo",
-  "Data-Logging-App",
-  "To-Do-App",
-  "self-care-survey-form",
-  "Awesome-Profile-README-templates",
-  "Digital_Knowledge_Base",
-];
-
-// NOTE: (5) The function I used to extract just the names of each repo. And to add a status property to each.
+// NOTE: (2) The function I used to extract just the names of each repo. And to add a status property to each. The returned value is saved in the `name_and_status` array.
 function addStatus(param) {
   const FATE = 1, // 1 = Keep as is. 2 = Delete. 3 = Other = see note.
     INFO = 1, // 1 = Info to salvage. 2 = No info to salvage.  3 = Other = see note.
@@ -463,11 +371,10 @@ function addStatus(param) {
   });
   return tempArray;
 }
-// console.log("name_and_status:",addStatus(original_rep_obj));
-const name_and_status = addStatus(original_rep_obj);
-console.log("name_and_status:", name_and_status);
+// const name_and_status = addStatus(original_rep_obj);
+// // console.log("name_and_status:", name_and_status);
 
-// // NOTE: (6) The array containing the names and status' of each repo. Added to the results.js file.
+// // NOTE: (3) The array containing the names and status' of each repo.
 // const name_and_status = [
 //   { name: "iBeer_Layout-Flexbox", status: "Need to check this repo." },
 //   { name: "Bears", status: "Need to check this repo." },
@@ -599,6 +506,9 @@ console.log("name_and_status:", name_and_status);
 //     status: "Need to check this repo.",
 //   },
 // ];
+
+// // NOTE: (4) Duplicated the `name_and_status` array so that I could updated the data without touching the original array.
+// const name_and_status_v2= name_and_status
 
 const name_and_status_v2 = [
   {
@@ -733,7 +643,7 @@ const name_and_status_v2 = [
   { name: "CNYSilentBookClub", status: { fate: 1, info: 2, note: "" } },
   { name: "CodeTheDream", status: { fate: 1, info: 2, note: "" } },
   { name: "rockpaperscissors", status: { fate: 1, info: 2, note: "Fold into TheIronYard repo, the LearningDirectory repo, or something similar." } },
-  { name: "JamieBortPersonal", status: { fate: 3, info: 2, note: "Need to re-evaluate this one." } },
+  { name: "JamieBortPersonal", status: { fate: 3, info: 2, note: "Keep this one for now. Consider deleting it at a later date." } },
   {
     name: "personal_dashboard_backend_heroku",
     status: { fate: 3, info: 3, note: "Potentially has something to salvage. Need to check this repo." },
@@ -798,6 +708,7 @@ const name_and_status_v2 = [
   },
 ];
 
+// Function for classifying each repo found in the `name_and_status_v2` array.
 function modify_name_and_status(param) {
   const tempObj = {
     "Yet to be considered.": [],
@@ -839,21 +750,86 @@ function modify_name_and_status(param) {
 
   return tempObj;
 }
-// // console.log(modify_name_and_status(name_and_status_v2));
-// const name_and_status_v3 = modify_name_and_status(name_and_status_v2);
 
-// // NOTE: to see the whole object.
+// // NOTE: (5) the `console.log()`s and `for` statement to view the output as I systematically looked at each repo to decide what I wanted to do with each one:
+const name_and_status_v3 = modify_name_and_status(name_and_status_v2);
+// console.log("name_and_status_v3:", name_and_status_v3);
+
+// // NOTE: For listing the repos that still need to be classified
+// name_and_status_v3["Yet to be considered."].forEach((element) => {
+//   console.log("element:", element);
+// });
+
+// // NOTE: to see the whole object organized by classification.
 // for (const property in name_and_status_v3) {
-//   // console.log(`${property}: ${object[property]}`);
-//   console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
-//   name_and_status_v3[property].forEach((element) => {
-//     // console.log(`${property}`, element);
-//     console.log(element);
-//   });
-//   console.log("=====================");
+//   // console.log(property);
+//   if (name_and_status_v3[property].length != 0) {
+//     console.log("=====================");
+//     console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
+//     name_and_status_v3[property].forEach((element) => console.log(element));
+//   }
 // }
 
-// // // NOTE: For looking at just the ones that I need to look at.
-// // name_and_status_v3["Yet to be considered."].forEach((element) => {
-// //   console.log("element:", element);
-// // });
+// // NOTE: The list of repos to delete.
+// for (const property in name_and_status_v3) {
+//   if (name_and_status_v3[property].length != 0 && property.split(" ")[0] === "Delete.") {
+//     console.log("=====================");
+//     console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
+//     name_and_status_v3[property].forEach((element) => console.log(element));
+//   }
+// }
+
+// // NOTE: The list of repos for "Delete. See note.".
+// // NOTE: DONE.
+// for (const property in name_and_status_v3) {
+//   if (name_and_status_v3[property].length != 0 && property.split(" ").slice(0, 3).join(" ") === "Delete. See note.") {
+//     console.log("=====================");
+//     console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
+//     name_and_status_v3[property].forEach((element) => console.log(element));
+//   }
+// }
+
+// // NOTE: The list of repos to delete. List except "Delete. No info." and "Delete. See note.".
+// // TODO: Come back to this one.
+// for (const property in name_and_status_v3) {
+//   if (
+//     name_and_status_v3[property].length != 0 &&
+//     property.split(" ")[0] === "Delete." &&
+//     property != "Delete. No info." &&
+//     // property.split(" ").slice(0, 3).join(" ") != "Delete. No info." &&
+//     property.split(" ").slice(0, 3).join(" ") != "Delete. See note."
+//   ) {
+//     console.log("=====================");
+//     console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
+//     name_and_status_v3[property].forEach((element) => console.log(element));
+//   }
+// }
+
+// // NOTE: The list of repos to keep.
+// // TODO: Revisit this one - there is info to salvage and move around.
+// for (const property in name_and_status_v3) {
+//   if (name_and_status_v3[property].length != 0 && property.split(" ")[0] === "Keep.") {
+//     console.log("=====================");
+//     console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
+//     name_and_status_v3[property].forEach((element) => console.log(element));
+//   }
+// }
+
+// NOTE: The list of repos that do not start with "Keep." nor "Delete.".
+// TODO:
+//      For "Create an IronYard repo and put these in there. Length: 20.", create repo to house them all in for now.
+//      For "See note. See note. Length: 7.", inspect more closely.
+//      For "See note. No info. Length: 2.", one to keep one to delete.
+for (const property in name_and_status_v3) {
+  if (name_and_status_v3[property].length != 0 && property.split(" ")[0] != "Keep." && property.split(" ")[0] != "Delete.") {
+    console.log("=====================");
+    console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
+    name_and_status_v3[property].forEach((element) => console.log(element));
+  }
+}
+
+// // Delete. No info.
+// // "Delete. No info. And more."
+// // .split(" ")[0] === "Delete.") {
+// Delete. See note.
+// console.log("Delete. No info. And more.".split(" ").slice(0, 3).join(" "));

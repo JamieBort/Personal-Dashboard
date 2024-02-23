@@ -1,3 +1,5 @@
+// TODO: delete this file.
+
 // fate 1 = Keep as is. 2 = Delete. 3 = Other = see note.
 // info  1 = Info to salvage. 2 = No info to salvage.  3 = Other = see note.
 
