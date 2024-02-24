@@ -633,7 +633,7 @@ const name_and_status_v2 = [
     status: {
       fate: 2,
       info: 2,
-      note: "Added to the 'The Short List of repos to clean up': https://trello.com/c/NnqWRZIE/158-clean-up-github-repositories-and-gists#comment-65d920475c427a9a15820ea5 No need to keep this. HOWEVER, make note of it in LearningDirectory or in Digital_Knowledge_Base.",
+      note: "IT IS DELETED.",
     },
   },
   { name: "TestPrivateRepo", status: { fate: 2, info: 2, note: "" } },
@@ -672,7 +672,7 @@ const name_and_status_v2 = [
   { name: "JamieBortPersonal", status: { fate: 3, info: 2, note: "Keep this one for now. Consider deleting it at a later date." } },
   {
     name: "personal_dashboard_backend_heroku",
-    status: { fate: 3, info: 3, note: "Potentially has something to salvage. Need to check this repo." },
+    status: { fate: 3, info: 3, note: "IT IS DELETED." },
   },
   {
     name: "intro-to-programming",
@@ -715,7 +715,7 @@ const name_and_status_v2 = [
   { name: "API-Playground", status: { fate: 2, info: 1, note: "" } },
   {
     name: "react-gh-pages-tutorial",
-    status: { fate: 2, info: 1, note: "" },
+    status: { fate: 2, info: 1, note: "IT IS DELETED." },
   },
   {
     name: "routed-react-app-gh-pages",
@@ -726,7 +726,7 @@ const name_and_status_v2 = [
     status: {
       fate: 3,
       info: 3,
-      note: "Added to the 'The Short List of repos to clean up': https://trello.com/c/NnqWRZIE/158-clean-up-github-repositories-and-gists#comment-65d920475c427a9a15820ea5 I am not sure whether to keep this nor if it has any valuable info.",
+      note: "IT IS DELETED.",
     },
   },
   { name: "Data-Logging-App", status: { fate: 1, info: 2, note: "" } },
@@ -861,27 +861,27 @@ const name_and_status_v3 = modify_name_and_status(name_and_status_v2);
 // }
 // console.log("*** The list of repos to keep. Revisit this one - there is info to salvage and move around.  ***");
 
-// NOTE: The list of repos that do not start with "Keep." nor "Delete.".
-// TODO:
-//      For "See note. See note. Length: 7.", inspect more closely.
-//      For "See note. No info. Length: 2.", one to keep one to delete.
-for (const property in name_and_status_v3) {
-  if (
-    name_and_status_v3[property].length != 0 &&
-    property.split(" ")[0] != "Keep." &&
-    property.split(" ")[0] != "Delete." &&
-    property != "Create an IronYard repo and put these in there."
-  ) {
-    console.log("=====================");
-    console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
-    name_and_status_v3[property].forEach((element) => {
-      console.log(element);
-      // console.log("element.name:", element.name);
-      // console.log(element.name);
-    });
-  }
-}
-console.log('*** The list of repos that do not start with "Keep." Nor "Delete. And have not been added to the IronYard repo". ***');
+// // NOTE: The list of repos that do not start with "Keep." nor "Delete.".
+// // TODO:
+// //      For "See note. See note. Length: 7.", inspect more closely.
+// //      For "See note. No info. Length: 2.", one to keep one to delete.
+// for (const property in name_and_status_v3) {
+//   if (
+//     name_and_status_v3[property].length != 0 &&
+//     property.split(" ")[0] != "Keep." &&
+//     property.split(" ")[0] != "Delete." &&
+//     property != "Create an IronYard repo and put these in there."
+//   ) {
+//     console.log("=====================");
+//     console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
+//     name_and_status_v3[property].forEach((element) => {
+//       console.log(element);
+//       // console.log("element.name:", element.name);
+//       // console.log(element.name);
+//     });
+//   }
+// }
+// console.log('*** The list of repos that do not start with "Keep." Nor "Delete. And have not been added to the IronYard repo". ***');
 
 // // property.slice(0, 14).split(" ")[0] === "IT IS DELETED."
 // // property.split(" ").slice(0, 4).join(" ") === "IT IS DELETED."
@@ -890,3 +890,7 @@ console.log('*** The list of repos that do not start with "Keep." Nor "Delete. A
 
 // // console.log("IT IS DELETED. Added the markdown to".slice(0, 15) === "ITISDELETED.");
 // console.log("IT IS DELETED. Added the markdown to".slice(0, 15).replaceAll(" ", "") === "ITISDELETED.");
+
+const substring = "IT IS DELETED.";
+const string = "to the The-Iron- IT IS DELETED. Added it to the The-Iron-";
+console.log(string.includes(substring));
