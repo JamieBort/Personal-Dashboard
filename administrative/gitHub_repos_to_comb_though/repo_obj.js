@@ -527,8 +527,8 @@ const name_and_status_v2 = [
     name: "Portfolio-Website",
     status: { fate: 1, info: 3, note: "Maybe has info to use." },
   },
-  { name: "FormBuilder", status: { fate: 3, info: 3, note: "Need to take a closer look." } },
-  { name: "CustomerDatabase", status: { fate: 3, info: 3, note: "Need to take a closer look." } },
+  { name: "FormBuilder", status: { fate: 3, info: 3, note: "IT IS DELETED. Added it to the The-Iron-Yard-Projects repo." } },
+  { name: "CustomerDatabase", status: { fate: 3, info: 3, note: "IT IS DELETED. Added it to the The-Iron-Yard-Projects repo." } },
   {
     name: "BlackjackHandCalculator",
     status: { fate: 3, info: 3, note: "Need to check. 50/50 chance delete or fold into TheIronYard repo, the LearningDirectory repo, or something similar." },
@@ -601,7 +601,11 @@ const name_and_status_v2 = [
   },
   {
     name: "CodeForDurhamAffordableHousingDataSet",
-    status: { fate: 2, info: 2, note: "First salvage the links in the readme file." },
+    status: {
+      fate: 2,
+      info: 2,
+      note: "IT IS DELETED. Added the markdown to this https://trello.com/c/TtMFVnGC/1330-coding-catchall#comment-65d93981777c1b000956d18b Trello card.",
+    },
   },
   { name: "CodeChallenges", status: { fate: 1, info: 2, note: "" } },
   {
@@ -634,7 +638,7 @@ const name_and_status_v2 = [
   },
   {
     name: "DummyRepoPublicNameChange",
-    status: { fate: 3, info: 2, note: "Probably delete this one." },
+    status: { fate: 3, info: 2, note: "IT IS DELETED." },
   },
   { name: "DummyRepoPrivate", status: { fate: 2, info: 2, note: "" } },
   { name: "GoogleMap", status: { fate: 2, info: 1, note: "API. Of particular interest." } },
@@ -642,7 +646,7 @@ const name_and_status_v2 = [
   { name: "EastSideRunClub", status: { fate: 1, info: 2, note: "" } },
   { name: "CNYSilentBookClub", status: { fate: 1, info: 2, note: "" } },
   { name: "CodeTheDream", status: { fate: 1, info: 2, note: "" } },
-  { name: "rockpaperscissors", status: { fate: 1, info: 2, note: "Fold into TheIronYard repo, the LearningDirectory repo, or something similar." } },
+  { name: "rockpaperscissors", status: { fate: 1, info: 2, note: "IT IS DELETED. Was forked." } },
   { name: "JamieBortPersonal", status: { fate: 3, info: 2, note: "Keep this one for now. Consider deleting it at a later date." } },
   {
     name: "personal_dashboard_backend_heroku",
@@ -700,7 +704,11 @@ const name_and_status_v2 = [
   },
   {
     name: "Awesome-Profile-README-templates",
-    status: { fate: 2, info: 2, note: "No need to keep this. HOWEVER, make note of it in LearningDirectory or in Digital_Knowledge_Base." },
+    status: {
+      fate: 2,
+      info: 2,
+      note: "IT IS DELETED. MAKE note of it in LearningDirectory or in Digital_Knowledge_Base. Added to the https://trello.com/c/gZJQgnvv/360-update-github Trello card. No need to keep this.",
+    },
   },
   {
     name: "Digital_Knowledge_Base",
@@ -804,6 +812,7 @@ const name_and_status_v3 = modify_name_and_status(name_and_status_v2);
 //     name_and_status_v3[property].forEach((element) => console.log(element));
 //   }
 // }
+// console.log('*** The list of repos to delete. List except "Delete. No info." and "Delete. See note.". ***');
 
 // // NOTE: The list of repos to keep.
 // // TODO: Revisit this one - there is info to salvage and move around.
@@ -814,26 +823,26 @@ const name_and_status_v3 = modify_name_and_status(name_and_status_v2);
 //     name_and_status_v3[property].forEach((element) => console.log(element));
 //   }
 // }
+// console.log("*** The list of repos to keep. Revisit this one - there is info to salvage and move around.  ***");
 
-// NOTE: The list of repos that do not start with "Keep." nor "Delete.".
-// TODO:
-//      For "Create an IronYard repo and put these in there. Length: 20.", create repo to house them all in for now.
-//      For "See note. See note. Length: 7.", inspect more closely.
-//      For "See note. No info. Length: 2.", one to keep one to delete.
-for (const property in name_and_status_v3) {
-  if (name_and_status_v3[property].length != 0 && property.split(" ")[0] != "Keep." && property.split(" ")[0] != "Delete.") {
-    console.log("=====================");
-    console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
-    name_and_status_v3[property].forEach((element) => {
-      console.log(element);
-      // console.log("element.name:", element.name);
-      // console.log(element.name);
-    });
-  }
-}
-
-// // Delete. No info.
-// // "Delete. No info. And more."
-// // .split(" ")[0] === "Delete.") {
-// Delete. See note.
-// console.log("Delete. No info. And more.".split(" ").slice(0, 3).join(" "));
+// // NOTE: The list of repos that do not start with "Keep." nor "Delete.".
+// // TODO:
+// //      For "See note. See note. Length: 7.", inspect more closely.
+// //      For "See note. No info. Length: 2.", one to keep one to delete.
+// for (const property in name_and_status_v3) {
+//   if (
+//     name_and_status_v3[property].length != 0 &&
+//     property.split(" ")[0] != "Keep." &&
+//     property.split(" ")[0] != "Delete." &&
+//     property != "Create an IronYard repo and put these in there."
+//   ) {
+//     console.log("=====================");
+//     console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
+//     name_and_status_v3[property].forEach((element) => {
+//       console.log(element);
+//       // console.log("element.name:", element.name);
+//       // console.log(element.name);
+//     });
+//   }
+// }
+// console.log('*** The list of repos that do not start with "Keep." Nor "Delete. And have not been added to the IronYard repo". ***');

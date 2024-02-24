@@ -18,6 +18,10 @@ Created to address the [Issue #23](https://github.com/JamieBort/Personal-Dashboa
 
   - Files and directories from other branches.
 
+- otherRepos
+
+  - Files and directories from other repos.
+
 - thisDirectory/
 
   - Directories moved into this one from the root directory in this `fullstack` branch.

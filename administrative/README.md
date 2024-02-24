@@ -64,9 +64,11 @@ master - Production branch.
 
     - Contains files and directories from
 
-      - other branches
+      - other branches,
 
-      - as well as files and directories from the root directory in this `fullstack` branch.
+      - other repos, and
+
+      - directories from the root directory in this `fullstack` branch.
 
     - Created for [Issue #23](https://github.com/JamieBort/Personal-Dashboard/issues/23).
 
