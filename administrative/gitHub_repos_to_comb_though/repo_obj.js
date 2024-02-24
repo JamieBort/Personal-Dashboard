@@ -607,20 +607,38 @@ const name_and_status_v2 = [
       note: "IT IS DELETED. Added the markdown to this https://trello.com/c/TtMFVnGC/1330-coding-catchall#comment-65d93981777c1b000956d18b Trello card.",
     },
   },
-  { name: "CodeChallenges", status: { fate: 1, info: 2, note: "" } },
+  {
+    name: "CodeChallenges",
+    status: {
+      fate: 1,
+      info: 2,
+      note: "Added to the 'The Short List of repos to clean up': https://trello.com/c/NnqWRZIE/158-clean-up-github-repositories-and-gists#comment-65d920475c427a9a15820ea5",
+    },
+  },
   {
     name: "Talks_Presentations_Workshops_and_Resources",
-    status: { fate: 1, info: 2, note: "" },
+    status: {
+      fate: 1,
+      info: 2,
+      note: "Added to the 'The Short List of repos to clean up': https://trello.com/c/NnqWRZIE/158-clean-up-github-repositories-and-gists#comment-65d920475c427a9a15820ea5",
+    },
   },
   { name: "LearningDirectory", status: { fate: 1, info: 3, note: "Maybe has info to use." } },
   {
     name: "Personal-Dashboard",
     status: { fate: 1, info: 2, note: "I am performing this exercise for this repo..." },
   },
-  { name: "Resources", status: { fate: 2, info: 2, note: "No need to keep this. HOWEVER, make note of it in LearningDirectory or in Digital_Knowledge_Base." } },
+  {
+    name: "Resources",
+    status: {
+      fate: 2,
+      info: 2,
+      note: "Added to the 'The Short List of repos to clean up': https://trello.com/c/NnqWRZIE/158-clean-up-github-repositories-and-gists#comment-65d920475c427a9a15820ea5 No need to keep this. HOWEVER, make note of it in LearningDirectory or in Digital_Knowledge_Base.",
+    },
+  },
   { name: "TestPrivateRepo", status: { fate: 2, info: 2, note: "" } },
-  { name: "DotENVPractice", status: { fate: 2, info: 2, note: "First salvage the instructions in the markdown file." } },
-  { name: "TrelloHeatMap", status: { fate: 2, info: 2, note: "No need to keep this. HOWEVER, make note of it in LearningDirectory or in Digital_Knowledge_Base." } },
+  { name: "DotENVPractice", status: { fate: 2, info: 2, note: "IT IS DELETED. Salvaged. First salvage the instructions in the markdown file." } },
+  { name: "TrelloHeatMap", status: { fate: 2, info: 2, note: "IT IS DELETED." } },
   {
     name: "GoogleCalendarAPIPractice",
     status: { fate: 2, info: 1, note: "API. Of particular interest." },
@@ -628,13 +646,17 @@ const name_and_status_v2 = [
   { name: "TrelloAPI", status: { fate: 2, info: 1, note: "API. Of particular interest." } },
   {
     name: "MaxxPotentialCareerLab",
-    status: { fate: 3, info: 3, note: "Need to take a closer look." },
+    status: {
+      fate: 3,
+      info: 3,
+      note: "Added to the 'The Short List of repos to clean up': https://trello.com/c/NnqWRZIE/158-clean-up-github-repositories-and-gists#comment-65d920475c427a9a15820ea5 Need to take a closer look.",
+    },
   },
   { name: "GmailAPIPractice", status: { fate: 2, info: 1, note: "API. Of particular interest." } },
   { name: "JamieBort", status: { fate: 1, info: 2, note: "" } },
   {
     name: "ReactJavaFrontBack",
-    status: { fate: 3, info: 3, note: "Need to take a closer look." },
+    status: { fate: 3, info: 3, note: "IT IS DELETED." },
   },
   {
     name: "DummyRepoPublicNameChange",
@@ -656,8 +678,8 @@ const name_and_status_v2 = [
     name: "intro-to-programming",
     status: { fate: 2, info: 2, note: "" },
   },
-  { name: "R6-rest-rails", status: { fate: 2, info: 1, note: "" } },
-  { name: "R6-blog", status: { fate: 2, info: 1, note: "" } },
+  { name: "R6-rest-rails", status: { fate: 2, info: 1, note: "IT IS DELETED." } },
+  { name: "R6-blog", status: { fate: 2, info: 1, note: "IT IS DELETED." } },
   {
     name: "to-do-list-videoWork",
     status: { fate: 2, info: 2, note: "" },
@@ -670,7 +692,14 @@ const name_and_status_v2 = [
     name: "to-do-list-classwork",
     status: { fate: 2, info: 2, note: "" },
   },
-  { name: "Kanban-Board", status: { fate: 1, info: 2, note: "" } },
+  {
+    name: "Kanban-Board",
+    status: {
+      fate: 1,
+      info: 2,
+      note: "Added to the 'The Short List of repos to clean up': https://trello.com/c/NnqWRZIE/158-clean-up-github-repositories-and-gists#comment-65d920475c427a9a15820ea5",
+    },
+  },
   {
     name: "weight-lifting-app",
     status: { fate: 1, info: 2, note: "" },
@@ -694,7 +723,11 @@ const name_and_status_v2 = [
   },
   {
     name: "GitHub-Actions-Learning-repo",
-    status: { fate: 3, info: 3, note: "I am not sure whether to keep this nor if it has any valuable info." },
+    status: {
+      fate: 3,
+      info: 3,
+      note: "Added to the 'The Short List of repos to clean up': https://trello.com/c/NnqWRZIE/158-clean-up-github-repositories-and-gists#comment-65d920475c427a9a15820ea5 I am not sure whether to keep this nor if it has any valuable info.",
+    },
   },
   { name: "Data-Logging-App", status: { fate: 1, info: 2, note: "" } },
   { name: "To-Do-App", status: { fate: 1, info: 2, note: "" } },
@@ -712,7 +745,11 @@ const name_and_status_v2 = [
   },
   {
     name: "Digital_Knowledge_Base",
-    status: { fate: 1, info: 2, note: "" },
+    status: {
+      fate: 1,
+      info: 2,
+      note: "Added to the 'The Short List of repos to clean up': https://trello.com/c/NnqWRZIE/158-clean-up-github-repositories-and-gists#comment-65d920475c427a9a15820ea5",
+    },
   },
 ];
 
@@ -804,7 +841,6 @@ const name_and_status_v3 = modify_name_and_status(name_and_status_v2);
 //     name_and_status_v3[property].length != 0 &&
 //     property.split(" ")[0] === "Delete." &&
 //     property != "Delete. No info." &&
-//     // property.split(" ").slice(0, 3).join(" ") != "Delete. No info." &&
 //     property.split(" ").slice(0, 3).join(" ") != "Delete. See note."
 //   ) {
 //     console.log("=====================");
@@ -825,24 +861,32 @@ const name_and_status_v3 = modify_name_and_status(name_and_status_v2);
 // }
 // console.log("*** The list of repos to keep. Revisit this one - there is info to salvage and move around.  ***");
 
-// // NOTE: The list of repos that do not start with "Keep." nor "Delete.".
-// // TODO:
-// //      For "See note. See note. Length: 7.", inspect more closely.
-// //      For "See note. No info. Length: 2.", one to keep one to delete.
-// for (const property in name_and_status_v3) {
-//   if (
-//     name_and_status_v3[property].length != 0 &&
-//     property.split(" ")[0] != "Keep." &&
-//     property.split(" ")[0] != "Delete." &&
-//     property != "Create an IronYard repo and put these in there."
-//   ) {
-//     console.log("=====================");
-//     console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
-//     name_and_status_v3[property].forEach((element) => {
-//       console.log(element);
-//       // console.log("element.name:", element.name);
-//       // console.log(element.name);
-//     });
-//   }
-// }
-// console.log('*** The list of repos that do not start with "Keep." Nor "Delete. And have not been added to the IronYard repo". ***');
+// NOTE: The list of repos that do not start with "Keep." nor "Delete.".
+// TODO:
+//      For "See note. See note. Length: 7.", inspect more closely.
+//      For "See note. No info. Length: 2.", one to keep one to delete.
+for (const property in name_and_status_v3) {
+  if (
+    name_and_status_v3[property].length != 0 &&
+    property.split(" ")[0] != "Keep." &&
+    property.split(" ")[0] != "Delete." &&
+    property != "Create an IronYard repo and put these in there."
+  ) {
+    console.log("=====================");
+    console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
+    name_and_status_v3[property].forEach((element) => {
+      console.log(element);
+      // console.log("element.name:", element.name);
+      // console.log(element.name);
+    });
+  }
+}
+console.log('*** The list of repos that do not start with "Keep." Nor "Delete. And have not been added to the IronYard repo". ***');
+
+// // property.slice(0, 14).split(" ")[0] === "IT IS DELETED."
+// // property.split(" ").slice(0, 4).join(" ") === "IT IS DELETED."
+// // console.log("IT IS DELETED.".slice(0, 14) === "IT IS DELETED.");
+// // "IT IS DELETED. Added the markdown to"
+
+// // console.log("IT IS DELETED. Added the markdown to".slice(0, 15) === "ITISDELETED.");
+// console.log("IT IS DELETED. Added the markdown to".slice(0, 15).replaceAll(" ", "") === "ITISDELETED.");
