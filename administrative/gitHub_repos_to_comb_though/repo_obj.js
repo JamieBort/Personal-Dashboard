@@ -594,7 +594,7 @@ const name_and_status_v2 = [
     name: "iPhysicist-CSSLayoutFlexbox",
     status: { fate: 3, info: 3, note: "Need to check. 50/50 chance delete or fold into TheIronYard repo, the LearningDirectory repo, or something similar." },
   },
-  { name: "GitHubPractice", status: { fate: 2, info: 2, note: "" } },
+  { name: "GitHubPractice", status: { fate: 2, info: 2, note: "IT IS DELETED." } },
   {
     name: "ResponsiveNavigation",
     status: { fate: 3, info: 3, note: "Need to check. 50/50 chance delete or fold into TheIronYard repo, the LearningDirectory repo, or something similar." },
@@ -636,7 +636,7 @@ const name_and_status_v2 = [
       note: "IT IS DELETED.",
     },
   },
-  { name: "TestPrivateRepo", status: { fate: 2, info: 2, note: "" } },
+  { name: "TestPrivateRepo", status: { fate: 2, info: 2, note: "IT IS DELETED. " } },
   { name: "DotENVPractice", status: { fate: 2, info: 2, note: "IT IS DELETED. Salvaged. First salvage the instructions in the markdown file." } },
   { name: "TrelloHeatMap", status: { fate: 2, info: 2, note: "IT IS DELETED." } },
   {
@@ -649,7 +649,7 @@ const name_and_status_v2 = [
     status: {
       fate: 3,
       info: 3,
-      note: "Added to the 'The Short List of repos to clean up': https://trello.com/c/NnqWRZIE/158-clean-up-github-repositories-and-gists#comment-65d920475c427a9a15820ea5 Need to take a closer look.",
+      note: "Consolidated inside of another repo.",
     },
   },
   { name: "GmailAPIPractice", status: { fate: 2, info: 1, note: "IT IS DELETED." } },
@@ -662,11 +662,11 @@ const name_and_status_v2 = [
     name: "DummyRepoPublicNameChange",
     status: { fate: 3, info: 2, note: "IT IS DELETED." },
   },
-  { name: "DummyRepoPrivate", status: { fate: 2, info: 2, note: "" } },
+  { name: "DummyRepoPrivate", status: { fate: 2, info: 2, note: "IT IS DELETED." } },
   { name: "GoogleMap", status: { fate: 2, info: 1, note: "IT IS DELETED." } },
   { name: "tempMapSearch", status: { fate: 3, info: 3, note: "IT IS DELETED." } },
-  { name: "EastSideRunClub", status: { fate: 1, info: 2, note: "" } },
-  { name: "CNYSilentBookClub", status: { fate: 1, info: 2, note: "" } },
+  { name: "EastSideRunClub", status: { fate: 1, info: 2, note: "Consolidated inside of another repo." } },
+  { name: "CNYSilentBookClub", status: { fate: 1, info: 2, note: "Consolidated inside of another repo." } },
   { name: "CodeTheDream", status: { fate: 1, info: 2, note: "" } },
   { name: "rockpaperscissors", status: { fate: 1, info: 2, note: "IT IS DELETED. Was forked." } },
   { name: "JamieBortPersonal", status: { fate: 3, info: 2, note: "Keep this one for now. Consider deleting it at a later date." } },
@@ -676,21 +676,21 @@ const name_and_status_v2 = [
   },
   {
     name: "intro-to-programming",
-    status: { fate: 2, info: 2, note: "" },
+    status: { fate: 2, info: 2, note: "IT IS DELETED." },
   },
   { name: "R6-rest-rails", status: { fate: 2, info: 1, note: "IT IS DELETED." } },
   { name: "R6-blog", status: { fate: 2, info: 1, note: "IT IS DELETED." } },
   {
     name: "to-do-list-videoWork",
-    status: { fate: 2, info: 2, note: "" },
+    status: { fate: 2, info: 2, note: "IT IS DELETED." },
   },
   {
     name: "Espanol-ingles-leyendo-hora",
-    status: { fate: 1, info: 2, note: "" },
+    status: { fate: 1, info: 2, note: "Consolidated inside of another repo." },
   },
   {
     name: "to-do-list-classwork",
-    status: { fate: 2, info: 2, note: "" },
+    status: { fate: 2, info: 2, note: "IT IS DELETED." },
   },
   {
     name: "Kanban-Board",
@@ -710,7 +710,7 @@ const name_and_status_v2 = [
   },
   {
     name: "03-task-manager-with-React-front-end",
-    status: { fate: 2, info: 2, note: "" },
+    status: { fate: 2, info: 2, note: "IT IS DELETED." },
   },
   { name: "API-Playground", status: { fate: 2, info: 1, note: "IT IS DELETED." } },
   {
@@ -719,7 +719,7 @@ const name_and_status_v2 = [
   },
   {
     name: "routed-react-app-gh-pages",
-    status: { fate: 2, info: 3, note: "Not sure if there's info." },
+    status: { fate: 2, info: 3, note: "IT IS DELETED." },
   },
   {
     name: "GitHub-Actions-Learning-repo",
@@ -733,7 +733,7 @@ const name_and_status_v2 = [
   { name: "To-Do-App", status: { fate: 1, info: 2, note: "" } },
   {
     name: "self-care-survey-form",
-    status: { fate: 2, info: 2, note: "" },
+    status: { fate: 2, info: 2, note: "IT IS DELETED." },
   },
   {
     name: "Awesome-Profile-README-templates",
@@ -769,129 +769,61 @@ function modify_name_and_status(param) {
     "See note. See note.": [],
     "Create an IronYard repo and put these in there.": [],
     "Do something with these.": [],
+    // ---------------------------------
+    "THESE REPOS HAVE BEEN DELETED.": [],
+    "THESE REPOS HAVE BEEN CONSOLIDATED.": [],
+    // "THESE REPOS HAVE BEEN CONSOLIDATED.":[],
+    "fate===1": [],
+    "fate: TO DELETE": [],
+    "fate===3": [],
   };
   param.forEach((element) => {
     const status = element.status,
       name = element.name;
-    if (status.fate === 1 && status.info === 1 && status.note === "") tempObj["Yet to be considered."].push({ name: name, status: status });
-    else if (status.fate === 1 && status.info === 1) tempObj["Keep. Salvage info. See note"].push({ name: name, status: status });
-    else if (status.fate === 1 && status.info === 2) tempObj["Keep. No info."].push({ name: name, status: status });
-    else if (status.fate === 1 && status.info === 3) tempObj["Keep. See note."].push({ name: name, status: status });
-    else if (status.fate === 2 && status.info === 1) tempObj["Delete. First salvage info."].push({ name: name, status: status });
-    else if (status.fate === 2 && status.info === 2 && status.note != "") tempObj["Delete. No info. See note."].push({ name: name, status: status });
-    else if (status.fate === 2 && status.info === 2) tempObj["Delete. No info."].push({ name: name, status: status });
-    else if (status.fate === 2 && status.info === 3) tempObj["Delete. See note."].push({ name: name, status: status });
-    else if (status.fate === 3 && status.info === 1) tempObj["See note. Salvage info."].push({ name: name, status: status });
-    else if (status.fate === 3 && status.info === 2) tempObj["See note. No info."].push({ name: name, status: status });
+    // if (status.fate === 1 && status.info === 1 && status.note === "") tempObj["Yet to be considered."].push({ name: name, status: status });
+    if (status.note.includes("IT IS DELETED.")) tempObj["THESE REPOS HAVE BEEN DELETED."].push({ name: name, status: status });
     else if (
-      status.fate === 3 &&
-      status.info === 3 &&
-      status.note === "Need to check. 50/50 chance delete or fold into TheIronYard repo, the LearningDirectory repo, or something similar."
+      status.note === "Need to check. 50/50 chance delete or fold into TheIronYard repo, the LearningDirectory repo, or something similar." ||
+      status.note === "Consolidated inside of another repo."
     )
-      tempObj["Create an IronYard repo and put these in there."].push({ name: name, status: status });
-    else if (status.fate === 3 && status.info === 3) tempObj["See note. See note."].push({ name: name, status: status });
-    else tempObj["Do something with these."].push({ name: name, status: status });
+      tempObj["THESE REPOS HAVE BEEN CONSOLIDATED."].push({ name: name, status: status });
+    // else if (status.fate === 1) tempObj["fate===1"].push({ name: name, status: status });
+    else if (status.fate === 2) tempObj["fate: TO DELETE"].push({ name: name, status: status });
+    // else if (status.fate === 3) tempObj["fate===3"].push({ name: name, status: status });
+    else tempObj["Yet to be considered."].push({ name: name, status: status });
+
+    // else if (status.fate === 1 && status.info === 1) tempObj["Keep. Salvage info. See note"].push({ name: name, status: status });
+    // else if (status.fate === 1 && status.info === 2) tempObj["Keep. No info."].push({ name: name, status: status });
+    // else if (status.fate === 1 && status.info === 3) tempObj["Keep. See note."].push({ name: name, status: status });
+    // else if (status.fate === 2 && status.info === 1) tempObj["Delete. First salvage info."].push({ name: name, status: status });
+    // else if (status.fate === 2 && status.info === 2 && status.note != "") tempObj["Delete. No info. See note."].push({ name: name, status: status });
+    // else if (status.fate === 2 && status.info === 2) tempObj["Delete. No info."].push({ name: name, status: status });
+    // else if (status.fate === 2 && status.info === 3) tempObj["Delete. See note."].push({ name: name, status: status });
+    // else if (status.fate === 3 && status.info === 1) tempObj["See note. Salvage info."].push({ name: name, status: status });
+    // else if (status.fate === 3 && status.info === 2) tempObj["See note. No info."].push({ name: name, status: status });
+    // else if (
+    //   status.fate === 3 &&
+    //   status.info === 3 &&
+    //   status.note === "Need to check. 50/50 chance delete or fold into TheIronYard repo, the LearningDirectory repo, or something similar."
+    // )
+    //   tempObj["Create an IronYard repo and put these in there."].push({ name: name, status: status });
+    // else if (status.fate === 3 && status.info === 3) tempObj["See note. See note."].push({ name: name, status: status });
+    // else tempObj["Do something with these."].push({ name: name, status: status });
   });
 
   return tempObj;
 }
-
-// // NOTE: (5) the `console.log()`s and `for` statement to view the output as I systematically looked at each repo to decide what I wanted to do with each one:
 const name_and_status_v3 = modify_name_and_status(name_and_status_v2);
 // console.log("name_and_status_v3:", name_and_status_v3);
 
-// // NOTE: For listing the repos that still need to be classified
-// name_and_status_v3["Yet to be considered."].forEach((element) => {
-//   console.log("element:", element);
-// });
-
-// // NOTE: to see the whole object organized by classification.
-// for (const property in name_and_status_v3) {
-//   // console.log(property);
-//   if (name_and_status_v3[property].length != 0) {
-//     console.log("=====================");
-//     console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
-//     name_and_status_v3[property].forEach((element) => console.log(element));
-//   }
-// }
-
-// // NOTE: The list of repos to delete.
-// for (const property in name_and_status_v3) {
-//   if (name_and_status_v3[property].length != 0 && property.split(" ")[0] === "Delete.") {
-//     console.log("=====================");
-//     console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
-//     name_and_status_v3[property].forEach((element) => console.log(element));
-//   }
-// }
-
-// // NOTE: The list of repos for "Delete. See note.".
-// // NOTE: DONE.
-// for (const property in name_and_status_v3) {
-//   if (name_and_status_v3[property].length != 0 && property.split(" ").slice(0, 3).join(" ") === "Delete. See note.") {
-//     console.log("=====================");
-//     console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
-//     name_and_status_v3[property].forEach((element) => console.log(element));
-//   }
-// }
-
-// // NOTE: The list of repos to delete. List except "Delete. No info." and "Delete. See note.".
-// // TODO: Come back to this one.
-// for (const property in name_and_status_v3) {
-//   if (
-//     name_and_status_v3[property].length != 0 &&
-//     property.split(" ")[0] === "Delete." &&
-//     property != "Delete. No info." &&
-//     property.split(" ").slice(0, 3).join(" ") != "Delete. See note."
-//   ) {
-//     console.log("=====================");
-//     console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
-//     name_and_status_v3[property].forEach((element) => console.log(element));
-//   }
-// }
-// console.log('*** The list of repos to delete. List except "Delete. No info." and "Delete. See note.". ***');
-
-// // NOTE: The list of repos to keep.
-// // TODO: Revisit this one - there is info to salvage and move around.
-// for (const property in name_and_status_v3) {
-//   if (name_and_status_v3[property].length != 0 && property.split(" ")[0] === "Keep.") {
-//     console.log("=====================");
-//     console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
-//     name_and_status_v3[property].forEach((element) => console.log(element));
-//   }
-// }
-// console.log("*** The list of repos to keep. Revisit this one - there is info to salvage and move around.  ***");
-
-// // NOTE: The list of repos that do not start with "Keep." nor "Delete.".
-// // TODO:
-// //      For "See note. See note. Length: 7.", inspect more closely.
-// //      For "See note. No info. Length: 2.", one to keep one to delete.
-// for (const property in name_and_status_v3) {
-//   if (
-//     name_and_status_v3[property].length != 0 &&
-//     property.split(" ")[0] != "Keep." &&
-//     property.split(" ")[0] != "Delete." &&
-//     property != "Create an IronYard repo and put these in there."
-//   ) {
-//     console.log("=====================");
-//     console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
-//     name_and_status_v3[property].forEach((element) => {
-//       console.log(element);
-//       // console.log("element.name:", element.name);
-//       // console.log(element.name);
-//     });
-//   }
-// }
-// console.log('*** The list of repos that do not start with "Keep." Nor "Delete. And have not been added to the IronYard repo". ***');
-
-// // property.slice(0, 14).split(" ")[0] === "IT IS DELETED."
-// // property.split(" ").slice(0, 4).join(" ") === "IT IS DELETED."
-// // console.log("IT IS DELETED.".slice(0, 14) === "IT IS DELETED.");
-// // "IT IS DELETED. Added the markdown to"
-
-// // console.log("IT IS DELETED. Added the markdown to".slice(0, 15) === "ITISDELETED.");
-// console.log("IT IS DELETED. Added the markdown to".slice(0, 15).replaceAll(" ", "") === "ITISDELETED.");
-// https://www.google.com/search?q=JavaScript+string+contains+a+substring&oq=JavaScript+string+contains+a+substring&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCTExMjM1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
-// https://stackoverflow.com/questions/1789945/how-to-check-whether-a-string-contains-a-substring-in-javascript
-const substring = "IT IS DELETED.";
-const string = "to the The-Iron- IT IS DELETED. Added it to the The-Iron-";
-console.log(string.includes(substring));
+// console.log("name_and_status_v3:", typeof name_and_status_v3);
+for (const property in name_and_status_v3) {
+  if (name_and_status_v3[property].length != 0) {
+    console.log("=====================");
+    console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
+    // console.log("property:", property, "property.length:", property.length);
+    if (property != "THESE REPOS HAVE BEEN DELETED." && property != "THESE REPOS HAVE BEEN CONSOLIDATED.") {
+      console.log("name_and_status_v3[property]:", name_and_status_v3[property]);
+    }
+  }
+}
