@@ -641,9 +641,9 @@ const name_and_status_v2 = [
   { name: "TrelloHeatMap", status: { fate: 2, info: 2, note: "IT IS DELETED." } },
   {
     name: "GoogleCalendarAPIPractice",
-    status: { fate: 2, info: 1, note: "API. Of particular interest." },
+    status: { fate: 2, info: 1, note: "IT IS DELETED." },
   },
-  { name: "TrelloAPI", status: { fate: 2, info: 1, note: "API. Of particular interest." } },
+  { name: "TrelloAPI", status: { fate: 2, info: 1, note: "IT IS DELETED." } },
   {
     name: "MaxxPotentialCareerLab",
     status: {
@@ -652,7 +652,7 @@ const name_and_status_v2 = [
       note: "Added to the 'The Short List of repos to clean up': https://trello.com/c/NnqWRZIE/158-clean-up-github-repositories-and-gists#comment-65d920475c427a9a15820ea5 Need to take a closer look.",
     },
   },
-  { name: "GmailAPIPractice", status: { fate: 2, info: 1, note: "API. Of particular interest." } },
+  { name: "GmailAPIPractice", status: { fate: 2, info: 1, note: "IT IS DELETED." } },
   { name: "JamieBort", status: { fate: 1, info: 2, note: "" } },
   {
     name: "ReactJavaFrontBack",
@@ -663,8 +663,8 @@ const name_and_status_v2 = [
     status: { fate: 3, info: 2, note: "IT IS DELETED." },
   },
   { name: "DummyRepoPrivate", status: { fate: 2, info: 2, note: "" } },
-  { name: "GoogleMap", status: { fate: 2, info: 1, note: "API. Of particular interest." } },
-  { name: "tempMapSearch", status: { fate: 3, info: 3, note: "Need to take a closer look." } },
+  { name: "GoogleMap", status: { fate: 2, info: 1, note: "IT IS DELETED." } },
+  { name: "tempMapSearch", status: { fate: 3, info: 3, note: "IT IS DELETED." } },
   { name: "EastSideRunClub", status: { fate: 1, info: 2, note: "" } },
   { name: "CNYSilentBookClub", status: { fate: 1, info: 2, note: "" } },
   { name: "CodeTheDream", status: { fate: 1, info: 2, note: "" } },
@@ -712,7 +712,7 @@ const name_and_status_v2 = [
     name: "03-task-manager-with-React-front-end",
     status: { fate: 2, info: 2, note: "" },
   },
-  { name: "API-Playground", status: { fate: 2, info: 1, note: "" } },
+  { name: "API-Playground", status: { fate: 2, info: 1, note: "IT IS DELETED." } },
   {
     name: "react-gh-pages-tutorial",
     status: { fate: 2, info: 1, note: "IT IS DELETED." },
@@ -890,7 +890,8 @@ const name_and_status_v3 = modify_name_and_status(name_and_status_v2);
 
 // // console.log("IT IS DELETED. Added the markdown to".slice(0, 15) === "ITISDELETED.");
 // console.log("IT IS DELETED. Added the markdown to".slice(0, 15).replaceAll(" ", "") === "ITISDELETED.");
-
+// https://www.google.com/search?q=JavaScript+string+contains+a+substring&oq=JavaScript+string+contains+a+substring&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCTExMjM1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+// https://stackoverflow.com/questions/1789945/how-to-check-whether-a-string-contains-a-substring-in-javascript
 const substring = "IT IS DELETED.";
 const string = "to the The-Iron- IT IS DELETED. Added it to the The-Iron-";
 console.log(string.includes(substring));
