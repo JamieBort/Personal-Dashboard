@@ -770,9 +770,9 @@ function modify_name_and_status(param) {
     "Create an IronYard repo and put these in there.": [],
     "Do something with these.": [],
     // ---------------------------------
+    "THESE ARE THE REMAINING REPOS TO CONSIDER.": [],
     "THESE REPOS HAVE BEEN DELETED.": [],
-    "THESE REPOS HAVE BEEN CONSOLIDATED.": [],
-    // "THESE REPOS HAVE BEEN CONSOLIDATED.":[],
+    "THESE REPOS HAVE BEEN CONSOLIDATED INTO OTHER REPOS.": [],
     "fate===1": [],
     "fate: TO DELETE": [],
     "fate===3": [],
@@ -780,17 +780,16 @@ function modify_name_and_status(param) {
   param.forEach((element) => {
     const status = element.status,
       name = element.name;
-    // if (status.fate === 1 && status.info === 1 && status.note === "") tempObj["Yet to be considered."].push({ name: name, status: status });
     if (status.note.includes("IT IS DELETED.")) tempObj["THESE REPOS HAVE BEEN DELETED."].push({ name: name, status: status });
     else if (
       status.note === "Need to check. 50/50 chance delete or fold into TheIronYard repo, the LearningDirectory repo, or something similar." ||
       status.note === "Consolidated inside of another repo."
     )
-      tempObj["THESE REPOS HAVE BEEN CONSOLIDATED."].push({ name: name, status: status });
+      tempObj["THESE REPOS HAVE BEEN CONSOLIDATED INTO OTHER REPOS."].push({ name: name, status: status });
     // else if (status.fate === 1) tempObj["fate===1"].push({ name: name, status: status });
     else if (status.fate === 2) tempObj["fate: TO DELETE"].push({ name: name, status: status });
     // else if (status.fate === 3) tempObj["fate===3"].push({ name: name, status: status });
-    else tempObj["Yet to be considered."].push({ name: name, status: status });
+    else tempObj["THESE ARE THE REMAINING REPOS TO CONSIDER."].push({ name: name, status: status });
 
     // else if (status.fate === 1 && status.info === 1) tempObj["Keep. Salvage info. See note"].push({ name: name, status: status });
     // else if (status.fate === 1 && status.info === 2) tempObj["Keep. No info."].push({ name: name, status: status });
@@ -815,15 +814,24 @@ function modify_name_and_status(param) {
 }
 const name_and_status_v3 = modify_name_and_status(name_and_status_v2);
 // console.log("name_and_status_v3:", name_and_status_v3);
-
 // console.log("name_and_status_v3:", typeof name_and_status_v3);
+
 for (const property in name_and_status_v3) {
   if (name_and_status_v3[property].length != 0) {
     console.log("=====================");
     console.log(`${property} Length: ${name_and_status_v3[property].length}.`);
-    // console.log("property:", property, "property.length:", property.length);
-    if (property != "THESE REPOS HAVE BEEN DELETED." && property != "THESE REPOS HAVE BEEN CONSOLIDATED.") {
-      console.log("name_and_status_v3[property]:", name_and_status_v3[property]);
+
+    // NOTE: if statements to determine which gets printed to the console.
+
+    // // NOTE: if statement to print to the console the REMAINING repos to consider.
+    // if (property != "THESE REPOS HAVE BEEN DELETED." && property != "THESE REPOS HAVE BEEN CONSOLIDATED INTO OTHER REPOS.") {
+    //   console.log("name_and_status_v3[property]:", name_and_status_v3[property]);
+    // }
+
+    // NOTE: if statement to print to the console the ALL of the repos from the original list.
+    if (true) {
+      // console.log("name_and_status_v3[property]:", name_and_status_v3[property]);
+      console.log(name_and_status_v3[property]);
     }
   }
 }
