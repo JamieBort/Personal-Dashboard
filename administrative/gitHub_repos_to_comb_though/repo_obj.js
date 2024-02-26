@@ -823,15 +823,15 @@ for (const property in name_and_status_v3) {
 
     // NOTE: if statements to determine which gets printed to the console.
 
-    // // NOTE: if statement to print to the console the REMAINING repos to consider.
-    // if (property != "THESE REPOS HAVE BEEN DELETED." && property != "THESE REPOS HAVE BEEN CONSOLIDATED INTO OTHER REPOS.") {
-    //   console.log("name_and_status_v3[property]:", name_and_status_v3[property]);
-    // }
-
-    // NOTE: if statement to print to the console the ALL of the repos from the original list.
-    if (true) {
-      // console.log("name_and_status_v3[property]:", name_and_status_v3[property]);
-      console.log(name_and_status_v3[property]);
+    // NOTE: if statement to print to the console the REMAINING repos to consider.
+    if (property != "THESE REPOS HAVE BEEN DELETED." && property != "THESE REPOS HAVE BEEN CONSOLIDATED INTO OTHER REPOS.") {
+      console.log("name_and_status_v3[property]:", name_and_status_v3[property]);
     }
+
+    // // NOTE: if statement to print to the console the ALL of the repos from the original list.
+    // if (true) {
+    //   // console.log("name_and_status_v3[property]:", name_and_status_v3[property]);
+    //   console.log(name_and_status_v3[property]);
+    // }
   }
 }
