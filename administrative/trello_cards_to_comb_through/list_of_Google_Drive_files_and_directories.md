@@ -1,5 +1,7 @@
 <!-- ./administrative/trello_cards_to_comb_through/list_of_trello_cards.md -->
 
+TODO: move this file into its own directory.
+
 # List of ~~Trello Cards~~
 
 The list of ~~Trello cards~~ relating to this Personal Dashboard repo.
@@ -31,6 +33,8 @@ For the https://trello.com/c/XdNG65rY/154-personal-dashboard
 https://trello.com/c/XdNG65rY/154-personal-dashboard
 
 ---
+
+Outlined with headings/sections.
 
 The [Personal Dashboard Business Requirements](https://docs.google.com/document/d/1KQw0Kq4O_SCzxrQZaZg0MucxXqoEE0kOTe9mDmxpD2M/edit#heading=h.k7bx0as6v0ko) Google Drive doc.
 
