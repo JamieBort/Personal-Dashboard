@@ -1,7 +1,20 @@
 <!-- ./administrative/trello_cards_to_comb_through/list_of_trello_cards.md -->
 
-Using this string to find these trell cards easily again:
+NOTE: Using this string to find these trell cards easily again:
 `Added to the ./administrative/trello_cards_to_comb_through/list_of_trello_cards.md file.`
+
+NOTE: Using `###Tags` in the Activity to flag the subject(s) covered in that Trello card.
+
+Existing tags:
+
+```
+.env
+credentials
+best practices
+further reading
+cors
+express
+```
 
 # List of Trello Cards
 
@@ -11,48 +24,48 @@ Collected here to address the [Comb through the Trello cards.](https://github.co
 
 **NOTE:** for now I am **NOT** listing any trello card with `API` in the title. Because that is obvious.
 
-## Important
-
-Flagged as Important. **Do not lose these without first salvaging the info!**
-
-https://trello.com/c/4IPbQQCy/1257-how-to-hide-your-api-keys-safely-when-using-react
-
-https://trello.com/c/5iSKymvx/582-react-front-end-java-back-end#comment-644412feb8b28fa5aba17ebe
-
 ## List
 
 The list of all of the Trello cards to consider.
 
-https://trello.com/c/4IPbQQCy/1257-how-to-hide-your-api-keys-safely-when-using-react
-
-https://trello.com/c/kUT82Vto/244-trello-heat-map
-
-https://trello.com/c/gC6QcX7k/493-blog-section-of-portfolio-page
-
-https://trello.com/c/5iSKymvx/582-react-front-end-java-back-end#comment-644412feb8b28fa5aba17ebe
-
-`https://oauth.net/code/`
-https://trello.com/c/va2VdzXw/155-dexcom-branch
-
-https://trello.com/c/5iSKymvx/582-react-front-end-java-back-end
-
 a dashboard resource?
-https://trello.com/c/d6R7jZVj/421-successful-internet-of-things-dashboard
 
-https://trello.com/c/LrMiS4NF/242-display-my-historical-map-data-on-a-map-globe
-
-https://trello.com/c/dasjbL61/1361-use-chatgpt-to-explain-to-me-how-to-use-authentication-in-my-personal-dashboard
+- https://trello.com/c/d6R7jZVj/421-successful-internet-of-things-dashboard
 
 Future plans. See note in:
-https://trello.com/c/xYpFK29n/986-update-a-row-in-secure-information
 
-https://trello.com/c/cWrQ4qxd/1230-medical-data-for-personal-dashboard
+- https://trello.com/c/xYpFK29n/986-update-a-row-in-secure-information
 
-https://trello.com/c/sefGzvWv/1598-diabetes-data-for-personal-dashboard
+Regarding the data I will be collecting
 
-https://trello.com/c/NJO9R7ov/252-productivity-and-organization-data-for-personal-dashboard
+- https://trello.com/c/NJO9R7ov/252-productivity-and-organization-data-for-personal-dashboard
 
-https://trello.com/c/GYruL063/167-familiarize-about-sensitive-files-to-keep-off-of-github-and-personal-dashboard
+- https://trello.com/c/sefGzvWv/1598-diabetes-data-for-personal-dashboard
+
+- https://trello.com/c/cWrQ4qxd/1230-medical-data-for-personal-dashboard
+
+**Come back to this one when it is time to use credentials**
+
+- https://trello.com/c/GYruL063/167-familiarize-about-sensitive-files-to-keep-off-of-github-and-personal-dashboard
+
+- https://trello.com/c/4IPbQQCy/1257-how-to-hide-your-api-keys-safely-when-using-react
+
+An idea to make note of. Otherwise there's nothing of material in here.
+
+- https://trello.com/c/kUT82Vto/244-trello-heat-map
+
+Revisit when I am ready to work on the authorization/authentication section of the website.
+
+- `https://oauth.net/code/`
+  https://trello.com/c/va2VdzXw/155-dexcom-branch
+
+- https://trello.com/c/dasjbL61/1361-use-chatgpt-to-explain-to-me-how-to-use-authentication-in-my-personal-dashboard
+
+Refer to this when trying to find a place(s) to host my java back end.
+
+- https://trello.com/c/5iSKymvx/582-react-front-end-java-back-end#comment-644412feb8b28fa5aba17ebe
+
+- https://trello.com/c/5iSKymvx/582-react-front-end-java-back-end#comment-644468c49dd30c6b4b862793
 
 ## Tangentially Related
 
@@ -81,3 +94,11 @@ https://trello.com/c/RfKFc4us/1068-reassess-calendar-time
 https://trello.com/c/HCOfElXh/1604-learn-how-to-use-nightscout-for-my-personal-dashboard
 
 https://trello.com/c/C7gQnymV/690-study-todoist-to-see-what-from-it-i-can-use-in-my-personal-dashboard
+
+set up my own mailing list that people can sign up for. rss feed too.
+
+- https://trello.com/c/gC6QcX7k/493-blog-section-of-portfolio-page#comment-6455449df8a9b242d9e2a0d7
+
+Display my historical map data on a map/globe
+
+- https://trello.com/c/LrMiS4NF/242-display-my-historical-map-data-on-a-map-globe
