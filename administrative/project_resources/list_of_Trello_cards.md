@@ -54,7 +54,7 @@ An idea to make note of. Otherwise there's nothing of material in here.
 
 - https://trello.com/c/kUT82Vto/244-trello-heat-map
 
-Revisit when I am ready to work on the authorization/authentication section of the website.
+Revisit when I am ready to work on the authorization and authentication section of the website.
 
 - `https://oauth.net/code/`
   https://trello.com/c/va2VdzXw/155-dexcom-branch

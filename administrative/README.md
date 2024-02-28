@@ -54,11 +54,7 @@ master - Production branch.
 
     - This directory and its contents will be deleted when this branch is deleted. **To be removed.**
 
-  - administrative/gitHub_repos_to_comb_though/
-
-    - Created for [Issue #19](https://github.com/JamieBort/Personal-Dashboard/issues/19).
-
-    - To be deleted when the `fullstack` branch is deleted and/or when the [Prepare repo administratively to start building out the font and back ends](https://github.com/JamieBort/Personal-Dashboard/milestone/3) milestone is closed.
+  - administrative/project_resources/
 
   - administrative/tempFiles/
 
