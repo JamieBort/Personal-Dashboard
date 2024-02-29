@@ -46,7 +46,7 @@ master - Production branch.
 
   - Files and directories for organizational purposes.
 
-  - ./administrative/original_readme/ <!-- TODO: find out where this original_readme file went to. -->
+  - ./administrative/original_readme/ <!-- TODO: find out where this original_readme file went to. To be address in this https://github.com/JamieBort/Personal-Dashboard/issues/36 issue. -->
 
     - Temporary directory.
 
