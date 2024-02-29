@@ -26,7 +26,13 @@ This project_resources/ directory will be deleted when
 
 - list_of_Google_Drive_files_and_directories.md
 
+- list_of_miscellaneous_resources.md
+
+  - Created as a result of the [Comb through other miscellaneous resources for info. #22](https://github.com/JamieBort/Personal-Dashboard/issues/22) Issue.
+
 - list_of_Trello_cards.md
+
+  - Created as a result of [Comb through the Trello cards. #21](https://github.com/JamieBort/Personal-Dashboard/issues/21) Issue.
 
 - README.md
 

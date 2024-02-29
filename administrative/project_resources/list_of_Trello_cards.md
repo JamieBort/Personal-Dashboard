@@ -1,6 +1,6 @@
 <!-- ./administrative/trello_cards_to_comb_through/list_of_trello_cards.md -->
 
-The below links are from the Trello cards that I combed through as a result of [Issue 21](https://github.com/JamieBort/Personal-Dashboard/issues/21).
+The below links are from the Trello cards that I combed through as a result of [Comb through the Trello cards. #21](https://github.com/JamieBort/Personal-Dashboard/issues/21) Issue.
 
 NOTE: I added this `Added to the ./administrative/trello_cards_to_comb_through/list_of_trello_cards.md file.` string to most of the Trello cards found below so that I could search for them easily in Trello if I needed to find them again.
 
