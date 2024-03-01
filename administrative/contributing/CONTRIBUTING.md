@@ -1,5 +1,7 @@
 <!-- TODO: See https://github.com/JamieBort/LearningDirectory/tree/master/Git/contributing for resources. -->
 
+<!-- This is new to me, if you find that this Contributing document itself needs modification, please create a pull request for this too! -->
+
 # Welcome to the Personal Dashboard contributing guide
 
 <!-- TODO: Make sure the links work when I am done editing this file. -->

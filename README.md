@@ -2,19 +2,30 @@
 
 ## About
 
-<!-- TODO: come back to this section to refine the wording. -->
+<!-- TODO: Come back to this section to refine the wording. -->
 
 <!-- TODO: Create an Issue to make this section look more attractive aesthetically. -->
 
-A website for displaying and searching daily data; such as blood glucose numbers and upcoming events.
+This dashboard will serve two main purposes.
 
-It will be used to help manage my diabetes better and my time better.
+One is for organization. All of my resource will be in one place for me to search and filter.
+This includes email, various note taking tools such as Google Keep, and project management tools such as Trello and GitHub, among other resources that I use periodically.
 
-To assist with my health, it will pull data in from a few apps that I use to manage my diabetes. Such as NightScout, my [Data Logging App](https://github.com/JamieBort/Data-Logging-App), Strava, a sleep app, and WGER a weightlifting app.
+The other purpose is to collect and analyze data. I am a data nut.
 
-To assist with organization it will pull data from Google Calendar, Trello, and GitHub.
+This will be used in two ways.
 
-To assist with my professional progress, it will pul data in from LinkedIn, Pocket, and Logseq.
+One is to improve my productivity.
+
+<!-- TODO: Elaborate on this more. -->
+<!-- For which I'll collect data on when I get to sleep, how long I have slept, if I am eating 3 complee meals a day, am I taking necessary leisure time to decompress at the end of the day, etc. -->
+
+The other is to improve my health.
+
+<!-- TODO: Elaborate on this more. -->
+<!-- For which I'll collect data and analyze it to see if I can bring my A1C down. This data will include when I work out. For how long. Sleep patterns, etc. -->
+<!-- A website for displaying and searching daily data; such as blood glucose numbers and upcoming events.
+It will be used to help manage my diabetes better and my time better. -->
 
 <!-- ### Notable Features
 
@@ -31,6 +42,10 @@ Notable features of this site are: -->
 TODO: Create an Issue to make this section look more attractive aesthetically. -->
 
 Once I get the beta version deployed I'll shift my focus to creating my Blood Glucose Beacon app, an app for notifying people in my contacts list that my blood glucose is dangerously low with my coordinates. As well as my Data Logging app, an app that allows me to enter discrete information into a database. Such as <!-- TODO: find examples to add here. -->.
+
+I'll make API calls against these two using this dashboard to contribute to the health data that I'll be analyzing.
+
+<!-- To assist with my health, it will pull data in from a few apps that I use to manage my diabetes. Such as NightScout, my [Data Logging App](https://github.com/JamieBort/Data-Logging-App), Strava, a sleep app, and WGER a weightlifting app. -->
 
 ## Technology Used
 
