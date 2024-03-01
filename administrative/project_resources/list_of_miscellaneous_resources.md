@@ -12,6 +12,14 @@ Some of the places have already been searched and dealt with. See `Results From 
 
 See the `Results From Search Phrases` section of the [Comb through other miscellaneous resources for info. #22](https://github.com/JamieBort/Personal-Dashboard/issues/22) Issue.
 
+231 found from https://getpocket.com/es/saves/search?query=api
+
+About 15 from https://drive.google.com/drive/search?q=graphql
+
+3 from https://getpocket.com/es/saves/search?query=graphql
+
+1 from https://getpocket.com/es/saves/search?query=dashboard
+
 ## List of places to search
 
 - Google Keep
@@ -25,16 +33,17 @@ See the `Results From Search Phrases` section of the [Comb through other miscell
 
 ## Search Phrases
 
-- personal dashboard
-- personaldashboard
 - api
-- rest
-- responsive
-- software
-- dashboard
-- library
-- package
-- frontend
-- front end
 - backend
 - back end
+- dashboard
+- frontend
+- front end
+- graphql
+- library
+- package
+- personaldashboard
+- personal dashboard
+- responsive
+- rest
+- software

@@ -30,7 +30,11 @@ Notable features of this site are: -->
 
 TODO: Create an Issue to make this section look more attractive aesthetically. -->
 
-This site will be built using Svelt TypeScript front end and Java backend. Which database is yet to be seen.
+Once I get the beta version deployed I'll shift my focus to creating my Blood Glucose Beacon app, an app for notifying people in my contacts list that my blood glucose is dangerously low with my coordinates. As well as my Data Logging app, an app that allows me to enter discrete information into a database. Such as <!-- TODO: find examples to add here. -->.
+
+## Technology Used
+
+This site is built using Svelt TypeScript on the front end and Java on the back end. Which database I'll use is yet to be seen.
 
 Any data that is private in nature will be behind authentication.
 
@@ -41,6 +45,10 @@ Any data that is private in nature will be behind authentication.
 TODO: Create an Issue to make this section look more attractive aesthetically. -->
 
 If you see anything that needs to be corrected, please create a pull request! Thank you.
+
+## Code Of Conduct
+
+<!-- TODO: Add a reference to the CoC file. -->
 
 ## License
 
