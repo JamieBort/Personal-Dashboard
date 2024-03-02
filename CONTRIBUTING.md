@@ -69,6 +69,8 @@ And if that Issue does not already exist, please create a new GitHub Issue.
 - [This 7 minute video.](https://www.youtube.com/watch?v=TKJ4RdhyB5Y)
 </details>
 
+If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/github/docs/issues/new/choose).
+
 #### Solve an Issue
 
 Another option to contribute to is solve an existing issue.
