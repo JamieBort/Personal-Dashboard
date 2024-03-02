@@ -55,15 +55,13 @@ Any data that is private in nature will be behind authentication.
 
 ## Contribute
 
-<!-- TODO: After I am more organized and/or before the Deploy Minimum Viable Product of Website milestone is completed , come back to this section to add notable features.
-
-TODO: Create an Issue to make this section look more attractive aesthetically. -->
-
-If you see anything that needs to be corrected, please create a pull request! Thank you.
+If you find an issue with the code or have a suggestions on how to improve this site, please see the [CONTRIBUTING](./CONTRIBUTING.md) file. Thank you.
 
 ## Code Of Conduct
 
-<!-- TODO: Add a reference to the CoC file. -->
+<!-- TODO: Update this reference to the CoC file. -->
+
+[Code Of Conduct](./CODE_OF_CONDUCT.md) file.
 
 ## License
 

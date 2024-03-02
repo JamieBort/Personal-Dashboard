@@ -88,16 +88,20 @@ master - Production branch.
 
   - To-Do items that need to be addressed.
 
-- .gitignore
+- ./CODE_OF_CONDUCT.md
+
+- ./CONTRIBUTING.md
+
+- ./.gitignore
 
   - Specifies intentionally untracked files. See https://git-scm.com/docs/gitignore
 
-- LICENSE.txt
+- ./LICENSE.txt
 
   - The license for this repo.
 
   - The text can be found [here](../LICENSE.txt).
 
-- README.md
+- ./README.md
 
   - This readme file for the repo.
