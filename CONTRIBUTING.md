@@ -69,7 +69,9 @@ And if that Issue does not already exist, please create a new GitHub Issue.
 - [This 7 minute video.](https://www.youtube.com/watch?v=TKJ4RdhyB5Y)
 </details>
 
-If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/github/docs/issues/new/choose).
+<!-- TODO: Add this line back in once I have Issue Templates and/or Issue forms to use here.
+To that end, I have created this https://github.com/users/JamieBort/projects/4?pane=issue&itemId=55135312 organizational-level Issue to complete that task. -->
+<!-- If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/github/docs/issues/new/choose). -->
 
 #### Solve an Issue
 
