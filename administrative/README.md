@@ -46,15 +46,19 @@ master - Production branch.
 
   - Files and directories for organizational purposes.
 
-  - ./administrative/original_readme/ <!-- TODO: find out where this original_readme file went to. To be address in this https://github.com/JamieBort/Personal-Dashboard/issues/36 issue. -->
-
-    - Temporary directory.
-
-    - This https://github.com/JamieBort/Personal-Dashboard/blob/fullstack/README.md README file has been copied to ./administrative/original_readme/originalReadme/README.md because may have important links to be saved.
-
-    - This directory and its contents will be deleted when this branch is deleted. **To be removed.**
-
   - administrative/project_resources/
+
+    - Created for [Issue #14](https://github.com/JamieBort/Personal-Dashboard/issues/14).
+
+    - This directory houses all of the resources I'll need to refer back to as I build out this project.
+
+    - Per[Issue #14](https://github.com/JamieBort/Personal-Dashboard/issues/14), these resources will be moved to other locations.
+
+    - This project_resources/ directory will be deleted when
+
+      - the `fullstack` branch is deleted
+
+      - and/or when the [Prepare repo administratively to start building out the font and back ends](https://github.com/JamieBort/Personal-Dashboard/milestone/3) milestone is closed.
 
   - administrative/tempFiles/
 
