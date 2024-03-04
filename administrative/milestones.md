@@ -1,8 +1,10 @@
 # Mile Stones
 
-Organizing my milestones.
+For organizing my project milestones.
 
 They're found [here](https://github.com/JamieBort/Personal-Dashboard/milestones).
+
+Possibly a temporary file.
 
 ## Phase 3 - Minimum Viable Product
 

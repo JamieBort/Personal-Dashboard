@@ -80,6 +80,12 @@ master - Production branch.
 
 ### Files
 
+- administrative/milestones.md
+
+  - For organizing my project milestones.
+
+  - Possibly a temporary file.
+
 - administrative/README.md
 
   - This readme file.
@@ -88,13 +94,17 @@ master - Production branch.
 
   - To-Do items that need to be addressed.
 
-- ./CODE_OF_CONDUCT.md
-
-- ./CONTRIBUTING.md
-
 - ./.gitignore
 
   - Specifies intentionally untracked files. See https://git-scm.com/docs/gitignore
+
+- ./CONTRIBUTING.md
+
+  - The contribution guide.
+
+- ./Contributor_Covenant_Code_of_Conduct.md
+
+  - The code of conduct for this repo.
 
 - ./LICENSE.txt
 
