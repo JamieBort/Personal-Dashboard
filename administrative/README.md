@@ -100,7 +100,7 @@ master - Production branch.
 
 - ./CONTRIBUTING.md
 
-  - The contribution guide.
+  - The contribution guide for this repo.
 
 - ./Contributor_Covenant_Code_of_Conduct.md
 
