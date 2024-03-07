@@ -34,13 +34,15 @@ master - Production branch.
 
 ### Directories
 
-- .vscode/
+### [./administrative/.github/](../.github)
 
-  - Directory for config file for VS Code.
+### [./administrative/.vscode/](../.vscode)
 
-  - For information, see the .vscode section of the configFiles directory of the LearningDirectory repo.
+Directory for config file for VS Code.
 
-  - Omitted from this repo.
+For information, see the .vscode section of the configFiles directory of the LearningDirectory repo.
+
+Omitted from this repo.
 
 - administrative/
 
@@ -74,13 +76,13 @@ master - Production branch.
 
     - To be deleted when everything needed is extracted/salvaged.
 
-- backend/
+### [backend/](../backend)
 
-  - Directory containing the back end of this app.
+Directory containing the back end of this app.
 
-- frontend/
+### [frontend/](../frontend)
 
-  - Directory containing the front end of this app.
+Directory containing the front end of this app.
 
 ### Files
 
@@ -116,6 +118,6 @@ master - Production branch.
 
   - The text can be found [here](../LICENSE.txt).
 
-- ./README.md
+#### [README.md](./README.md)
 
-  - This readme file for the repo.
+This readme file.
