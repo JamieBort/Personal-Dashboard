@@ -1,6 +1,7 @@
-# Welcome to the Personal Dashboard contributing guide <!-- omit in toc (table of contents) -->
+<!-- NOTE: Regarding the TODO:s in this file that contain "FOR THIS FILE:", these are intended to be addressed AFTER this template has been copied into another repo. -->
+<!-- NOTE: Regarding the TODO:s in this file that contain "FOR THIS TEMPLATE:", these are intended to be addressed in THIS file for the future use of this template, BEFORE this template has been copied into another repo. -->
 
-<!-- TODO: Test all of the links below to see which ones need to modified/updated for when the template is used. Then make note of them with `TODO: FOR THIS TEMPLATE: <instructions here>.` -->
+# Welcome to the Personal Dashboard contributing guide <!-- omit in toc (table of contents) -->
 
 Thank you for investing your time in contributing to this project!
 
@@ -69,9 +70,7 @@ And if that Issue does not already exist, please create a new GitHub Issue.
 - [This 7 minute video.](https://www.youtube.com/watch?v=TKJ4RdhyB5Y)
 </details>
 
-<!-- TODO: Add this line back in once I have Issue Templates and/or Issue forms to use here.
-To that end, I have created this https://github.com/users/JamieBort/projects/4?pane=issue&itemId=55135312 organizational-level Issue to complete that task. -->
-<!-- If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/github/docs/issues/new/choose). -->
+If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/jamiebort/Personal-Dashboard/issues/new/choose).
 
 #### Solve an Issue
 
