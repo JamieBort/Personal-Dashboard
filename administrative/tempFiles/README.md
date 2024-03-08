@@ -14,20 +14,20 @@ Created to address the [Issue #23](https://github.com/JamieBort/Personal-Dashboa
 
 ### Directories
 
-- otherBranches/
+#### [otherBranches/](./otherBranches/)
 
-  - Files and directories from other branches.
+Files and directories from other branches.
 
-- otherRepos
+#### [otherRepos/](./otherRepos/)
 
-  - Files and directories from other repos.
+Files and directories from other repos.
 
-- thisDirectory/
+#### [thisDirectory/](./thisDirectory/)
 
-  - Directories moved into this one from the root directory in this `fullstack` branch.
+Directories moved into this one from the root directory in this `fullstack` branch.
 
 ### Files
 
-- README.md
+#### [README.md](./README.md)
 
-  - This readme file for the repo.
+This readme file.

@@ -82,6 +82,8 @@ Created for [Issue #23](https://github.com/JamieBort/Personal-Dashboard/issues/2
 
 To be deleted when everything needed is extracted/salvaged.
 
+[tempFiles/ README.md](./tempFiles/README.md)
+
 #### [backend/](../backend)
 
 Directory containing the back end of this app.
@@ -101,6 +103,10 @@ Possibly a temporary file.
 ##### [administrative/README.md](./README.md)
 
 This readme file.
+
+##### [administrative/resources_by_topic.md](./resources_by_topic.md)
+
+File containing resource distilled from the [administrative/project_resources/](#administrativeproject_resources) and the [administrative/tempFiles/](#administrativetempfiles) directories.
 
 ##### [administrative/Tasks.md](./Tasks.md)
 
