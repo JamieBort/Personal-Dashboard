@@ -58,6 +58,10 @@ Files and directories for organizational purposes.
 
 This directory houses resources for this project/repo from various sources; such as old branches, directories, various Trello cards, etc.
 
+Created for [Issue #27](https://github.com/JamieBort/Personal-Dashboard/issues/27).
+
+To be cleaned out and deleted eventually.
+
 #### [backend/](../backend)
 
 Directory containing the back end of this app.
