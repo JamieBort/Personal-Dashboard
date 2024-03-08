@@ -34,13 +34,13 @@ master - Production branch.
 
 ### Directories
 
-### [./.github/](../.github)
+#### [./.github/](../.github)
 
 This is where the Pull Request template lives. See [Pull Request Templates](https://github.com/JamieBort/LearningDirectory/tree/master/Git/pull_request_templates).
 
 This is also where the Dependabot yaml file is. Right now it is used just for `Dependabot version updates`. See [Dependabot](https://github.com/JamieBort/LearningDirectory/tree/master/Git/security#dependabot).
 
-### [./.vscode/](../.vscode)
+#### [./.vscode/](../.vscode)
 
 Directory for config file for VS Code.
 
@@ -48,80 +48,80 @@ For information, see the .vscode section of the configFiles directory of the Lea
 
 Omitted from this repo.
 
-- administrative/
+#### [administrative/](../administrative/)
 
-  - Files and directories for organizational purposes.
+Files and directories for organizational purposes.
 
-  - administrative/project_resources/
+##### [administrative/project_resources/](./project_resources/)
 
-    - Created for [Issue #14](https://github.com/JamieBort/Personal-Dashboard/issues/14).
+Created for [Issue #14](https://github.com/JamieBort/Personal-Dashboard/issues/14).
 
-    - This directory houses all of the resources I'll need to refer back to as I build out this project.
+This directory houses all of the resources I'll need to refer back to as I build out this project.
 
-    - Per[Issue #14](https://github.com/JamieBort/Personal-Dashboard/issues/14), these resources will be moved to other locations.
+Per[Issue #14](https://github.com/JamieBort/Personal-Dashboard/issues/14), these resources will be moved to other locations.
 
-    - This project_resources/ directory will be deleted when
+This project_resources/ directory will be deleted when
 
-      - the `fullstack` branch is deleted
+- the `fullstack` branch is deleted
 
-      - and/or when the [Prepare repo administratively to start building out the font and back ends](https://github.com/JamieBort/Personal-Dashboard/milestone/3) milestone is closed.
+- and/or when the [Prepare repo administratively to start building out the font and back ends](https://github.com/JamieBort/Personal-Dashboard/milestone/3) milestone is closed.
 
-  - administrative/tempFiles/
+##### [administrative/tempFiles/](./tempFiles/)
 
-    - Contains files and directories from
+Contains files and directories from
 
-      - other branches,
+- other branches,
 
-      - other repos, and
+- other repos, and
 
-      - directories from the root directory in this `fullstack` branch.
+- directories from the root directory in this `fullstack` branch.
 
-    - Created for [Issue #23](https://github.com/JamieBort/Personal-Dashboard/issues/23).
+Created for [Issue #23](https://github.com/JamieBort/Personal-Dashboard/issues/23).
 
-    - To be deleted when everything needed is extracted/salvaged.
+To be deleted when everything needed is extracted/salvaged.
 
-### [backend/](../backend)
+#### [backend/](../backend)
 
 Directory containing the back end of this app.
 
-### [frontend/](../frontend)
+#### [frontend/](../frontend)
 
 Directory containing the front end of this app.
 
 ### Files
 
-- administrative/milestones.md
+##### [administrative/milestones.md](./milestones.md)
 
-  - For organizing my project milestones.
+For organizing my project milestones.
 
-  - Possibly a temporary file.
+Possibly a temporary file.
 
-- administrative/README.md
-
-  - This readme file.
-
-- administrative/Tasks.md
-
-  - To-Do items that need to be addressed.
-
-- ./.gitignore
-
-  - Specifies intentionally untracked files. See https://git-scm.com/docs/gitignore
-
-- ./CONTRIBUTING.md
-
-  - The contribution guide for this repo.
-
-- ./Contributor_Covenant_Code_of_Conduct.md
-
-  - The code of conduct for this repo.
-
-- ./LICENSE.txt
-
-  - The license for this repo.
-
-  - The text can be found [here](../LICENSE.txt).
-
-#### [README.md](./README.md)
+##### [administrative/README.md](./README.md)
 
 This readme file.
+
+##### [administrative/Tasks.md](./Tasks.md)
+
+To-Do items that need to be addressed.
+
+#### [.gitignore](../.gitignore)
+
+Specifies intentionally untracked files. See https://git-scm.com/docs/gitignore
+
+#### [CONTRIBUTING.md](../CONTRIBUTING.md)
+
+The contribution guide for this repo.
+
+#### [Contributor_Covenant_Code_of_Conduct.md](../Contributor_Covenant_Code_of_Conduct.md)
+
+The code of conduct for this repo.
+
+#### [LICENSE.txt](../LICENSE.txt)
+
+The license for this repo.
+
+The text can be found [here](../LICENSE.txt).
+
+#### [README.md](../README.md)
+
+The README file for the repo.
