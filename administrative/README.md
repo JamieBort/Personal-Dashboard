@@ -36,9 +36,11 @@ master - Production branch.
 
 #### [./.github/](../.github)
 
-This is where the Pull Request template lives. See [Pull Request Templates](https://github.com/JamieBort/LearningDirectory/tree/master/Git/pull_request_templates).
+This is where the Pull Request template lives (PULL_REQUEST_TEMPLATE.md). See [Pull Request Templates](https://github.com/JamieBort/LearningDirectory/tree/master/Git/pull_request_templates).
 
-This is also where the Dependabot yaml file is. Right now it is used just for `Dependabot version updates`. See [Dependabot](https://github.com/JamieBort/LearningDirectory/tree/master/Git/security#dependabot).
+This is also where the Dependabot yml file is (dependabot.yml). Right now it is used just for `Dependabot version updates`. See [Dependabot](https://github.com/JamieBort/LearningDirectory/tree/master/Git/security#dependabot).
+
+And this is where the Issue templates live (ISSUE_TEMPLATE/).
 
 #### [./.vscode/](../.vscode)
 
