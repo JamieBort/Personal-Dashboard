@@ -2,46 +2,26 @@
 
 ## About
 
-<!-- TODO: Come back to this section to refine the wording. -->
-
-<!-- TODO: Create an Issue to make this section look more attractive aesthetically. -->
-
 This dashboard will serve two main purposes.
 
-One is for organization. All of my resource will be in one place for me to search and filter.
-This includes email, various note taking tools such as Google Keep, and project management tools such as Trello and GitHub, among other resources that I use periodically.
+One is for organization. All of my resource will be available in one place for me to search and filter through.
+This includes email, various note taking tools such as Logseq, and project management tools such as Trello and GitHub, among other resources that I use periodically.
 
-The other purpose is to collect and analyze data. I am a data nut.
-
-This will be used in two ways.
-
-One is to improve my productivity.
-
-<!-- TODO: Elaborate on this more. -->
-<!-- For which I'll collect data on when I get to sleep, how long I have slept, if I am eating 3 complee meals a day, am I taking necessary leisure time to decompress at the end of the day, etc. -->
-
-The other is to improve my health.
-
-<!-- TODO: Elaborate on this more. -->
-<!-- For which I'll collect data and analyze it to see if I can bring my A1C down. This data will include when I work out. For how long. Sleep patterns, etc. -->
-<!-- A website for displaying and searching daily data; such as blood glucose numbers and upcoming events.
-It will be used to help manage my diabetes better and my time better. -->
+The other purpose is to collect and analyze data; both to help me become more productive and to help stay on top of my diabetes.
 
 <!-- ### Notable Features
 
 TODO: After I am more organized and/or before the Deploy Minimum Viable Product of Website milestone is completed , come back to this section to add notable features.
 
-TODO: Create an Issue to make this section look more attractive aesthetically.
-
-Notable features of this site are: -->
+Notable features of this site are NextJS frontend and backend, api calls to... , ____ database ... -->
 
 ## Aspirations
 
-<!-- TODO: After I am more organized and/or before the Deploy Minimum Viable Product of Website milestone is completed , come back to this section to add notable features.
+<!-- TODO: After I am more organized and/or before the Deploy Minimum Viable Product of Website milestone is completed , come back to this section to add notable features. -->
 
-TODO: Create an Issue to make this section look more attractive aesthetically. -->
+<!-- TODO: Link to the Blood Glucose Beacon app and Data Logging app repos. Even better, the live sites. -->
 
-Once I get the beta version deployed I'll shift my focus to creating my Blood Glucose Beacon app, an app for notifying people in my contacts list that my blood glucose is dangerously low with my coordinates. As well as my Data Logging app, an app that allows me to enter discrete information into a database. Such as <!-- TODO: find examples to add here. -->.
+Once I get the beta version deployed I'll shift my focus to creating my Blood Glucose Beacon app, an app for notifying people in my contacts list that my blood glucose is dangerously low with my coordinates. As well as my Data Logging app, an app that allows me to enter discrete information into a database. Information such as the last time I changed the sensor site and which arm it is located on.
 
 I'll make API calls against these two using this dashboard to contribute to the health data that I'll be analyzing.
 
