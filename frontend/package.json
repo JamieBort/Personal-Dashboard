@@ -18,7 +18,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run tsc",
+    "tsc": "tsc",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
