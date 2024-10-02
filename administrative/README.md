@@ -27,7 +27,9 @@ master - Production branch.
   |
   +-- dev - Development branch.
       |
-      +-- fullstack - To set up a deployed full stack app.
+      +-- fullstack - To set up a deploy full stack app.
+         |
+         +-- fullstack_react_python - To set up a deploy a React TypeScript and Python full stack app.
 ```
 
 ## Directories and Files
@@ -42,13 +44,14 @@ This is also where the Dependabot yml file is (dependabot.yml). Right now it is 
 
 And this is where the Issue templates live (ISSUE_TEMPLATE/).
 
-#### [./.vscode/](../.vscode)
+<!-- This .vscode/ directory doesn't exist -->
+<!-- #### [./.vscode/](../.vscode)
 
 Directory for config file for VS Code.
 
 For information, see the .vscode section of the configFiles directory of the LearningDirectory repo.
 
-Omitted from this repo.
+Omitted from this repo. -->
 
 #### [administrative/](../administrative/)
 
