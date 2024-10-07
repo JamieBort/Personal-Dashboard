@@ -6,7 +6,7 @@
 
 1. Start back end server.
 
-   ~~See `Start back end server locally` in the `./jamiebort.github.io/backend/README.md` file.~~
+   See [Start back end server locally](../backend/README.md#start-back-end-server-locally) in the `README.md` file.
 
 2. Start front end server.
 
@@ -14,7 +14,9 @@
 
 ### Hosted
 
-See
+Currently hosted on Render. I cloned [this Flask app](https://docs.render.com/deploy-flask) and followed the instructions to deploy it.
+
+~~See~~
 
 - ~~`Start front end server remotely` in the `./jamiebort.github.io/frontend/README.md` file.~~
 
@@ -31,7 +33,9 @@ master - Production branch.
          |
          +-- fullstack_react_python - To set up a deploy a React TypeScript and Python full stack app.
             |
-            +-- fullstack_react_python_endpoints - To set up an endpoints to receive REST API calls.
+            +-- fullstack_react_python_be_endpoints - (Not created yet) To set up an endpoints to receive REST API calls from the frontend (fe).
+            |
+            +-- fullstack_react_python_fe_REST_api - To set up REST API calls to the backend (be).
 ```
 
 ## Directories and Files
