@@ -30,6 +30,8 @@ master - Production branch.
       +-- fullstack - To set up a deploy full stack app.
          |
          +-- fullstack_react_python - To set up a deploy a React TypeScript and Python full stack app.
+            |
+            +-- fullstack_react_python_endpoints - To set up an endpoints to receive REST API calls.
 ```
 
 ## Directories and Files
