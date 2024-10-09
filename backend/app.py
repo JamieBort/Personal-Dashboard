@@ -1,6 +1,8 @@
 from flask import Flask
 from flask_cors import CORS
 
+# Attempting to address this "ModuleNotFoundError: No module named 'flask_cors'" error in render.com
+
 app = Flask(__name__)
 CORS(app)
 
