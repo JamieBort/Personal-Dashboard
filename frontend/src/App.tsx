@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./App.css";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   const [results, setResults] = useState({ completed: false, id: 1111, title: "beans", userId: 2222 });
 
   function myFetch() {
+    // https://jsonplaceholder.typicode.com/
     fetch(`https://jsonplaceholder.typicode.com/todos/${count}`)
       .then((response) => response.json())
       .then((json) => {
